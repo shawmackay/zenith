@@ -9,10 +9,10 @@
  *
  */
 
-package org.jini.projects.zenith.messaging.channels.connectors;
+package org.blarty.zenith.messaging.channels.connectors;
 
-import org.jini.projects.zenith.messaging.messages.Message;
-import org.jini.projects.zenith.messaging.system.MessagingListener;
+import org.blarty.zenith.messaging.messages.Message;
+import org.blarty.zenith.messaging.system.MessagingListener;
 
 
 /**

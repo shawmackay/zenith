@@ -1,6 +1,6 @@
-package org.jini.projects.zenith.messaging.components.transformation;
+package org.blarty.zenith.messaging.components.transformation;
 
-import org.jini.projects.zenith.messaging.components.ControllableComponent;
+import org.blarty.zenith.messaging.components.ControllableComponent;
 
 public interface Normalizer extends ControllableComponent {
 

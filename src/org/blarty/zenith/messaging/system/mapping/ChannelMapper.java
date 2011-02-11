@@ -1,4 +1,4 @@
-package org.jini.projects.zenith.messaging.system.mapping;
+package org.blarty.zenith.messaging.system.mapping;
 
 public class ChannelMapper {
 

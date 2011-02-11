@@ -9,14 +9,14 @@
  *
  */
 
-package org.jini.projects.zenith.messaging.system;
+package org.blarty.zenith.messaging.system;
 
 import java.rmi.Remote;
 import java.rmi.RemoteException;
 
-import org.jini.projects.zenith.messaging.channels.MessageChannel;
-import org.jini.projects.zenith.messaging.channels.connectors.PublishingQConnector;
-import org.jini.projects.zenith.messaging.channels.connectors.ReceivingQConnector;
+import org.blarty.zenith.messaging.channels.MessageChannel;
+import org.blarty.zenith.messaging.channels.connectors.PublishingQConnector;
+import org.blarty.zenith.messaging.channels.connectors.ReceivingQConnector;
 
 
 

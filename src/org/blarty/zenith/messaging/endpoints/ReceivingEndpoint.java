@@ -4,9 +4,9 @@
  * To change the template for this generated file go to
  * Window - Preferences - Java - Code Generation - Code and Comments
  */
-package org.jini.projects.zenith.messaging.endpoints;
+package org.blarty.zenith.messaging.endpoints;
 
-import org.jini.projects.zenith.messaging.messages.Message;
+import org.blarty.zenith.messaging.messages.Message;
 
 /**
  * @author Calum

@@ -1,4 +1,4 @@
-package org.jini.projects.zenith.messaging.components.routers.splitters;
+package org.blarty.zenith.messaging.components.routers.splitters;
 
 /*
 * XPathSplitPoint.java

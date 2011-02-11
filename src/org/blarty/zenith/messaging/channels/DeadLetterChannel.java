@@ -1,5 +1,5 @@
 /*
- * zenith : org.jini.projects.zenith.messaging.channels
+ * zenith : org.blarty.zenith.messaging.channels
  * 
  * 
  * DeadLetterChannel.java
@@ -9,17 +9,17 @@
  *
  */
 
-package org.jini.projects.zenith.messaging.channels;
+package org.blarty.zenith.messaging.channels;
 
 import java.io.File;
 import java.io.IOException;
 import java.util.logging.Logger;
 
-import org.jini.projects.zenith.messaging.channels.connectors.PublishingQConnector;
-import org.jini.projects.zenith.messaging.channels.connectors.PublishingQConnectorImpl;
-import org.jini.projects.zenith.messaging.messages.Message;
-import org.jini.projects.zenith.messaging.system.ChannelPublisher;
-import org.jini.projects.zenith.messaging.system.store.StoreSystem;
+import org.blarty.zenith.messaging.channels.connectors.PublishingQConnector;
+import org.blarty.zenith.messaging.channels.connectors.PublishingQConnectorImpl;
+import org.blarty.zenith.messaging.messages.Message;
+import org.blarty.zenith.messaging.system.ChannelPublisher;
+import org.blarty.zenith.messaging.system.store.StoreSystem;
 
 /**
  * @author calum
@@ -28,7 +28,7 @@ public class DeadLetterChannel implements MessageChannel, PublishingChannel {
 	private String name;
 	private java.util.List queue;
 	private boolean guaranteed;
-	Logger l = Logger.getLogger("org.jini.projects.zenith.messaging.channels");
+	Logger l = Logger.getLogger("org.blarty.zenith.messaging.channels");
 	public DeadLetterChannel(String name) {
 		this.name = name;
 	}
@@ -66,7 +66,7 @@ public class DeadLetterChannel implements MessageChannel, PublishingChannel {
 				if (guaranteed) {
 					l.finest("Channel is storing a message");
 					try {
-						StoreSystem sys = new StoreSystem(System.getProperty("org.jini.projects.zenith.messaging.system.store.dir") + File.separator + "DeadLetters");
+						StoreSystem sys = new StoreSystem(System.getProperty("org.blarty.zenith.messaging.system.store.dir") + File.separator + "DeadLetters");
 						sys.store(name, m);
 						l.finest("Channel has stored the Message");
 					} catch (IOException e) {

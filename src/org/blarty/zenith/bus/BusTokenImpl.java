@@ -1,7 +1,7 @@
-package org.jini.projects.zenith.bus;
+package org.blarty.zenith.bus;
 
 // Created as: 14-Jan-2003 : enclosing_type :BusTokenImpl.java
-// In org.jini.projects.zenith.bus
+// In org.blarty.zenith.bus
 /**
  * 
  * @author calum
@@ -16,7 +16,7 @@ public class BusTokenImpl implements BusToken{
 	}
 	
 	/**
-	 * @see org.jini.projects.zenith.bus.BusToken#getToken()
+	 * @see org.blarty.zenith.bus.BusToken#getToken()
 	 */
 	public Object getToken() {
 		return token;

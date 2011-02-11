@@ -4,7 +4,7 @@
  * To change this generated comment go to 
  * Window>Preferences>Java>Code Generation>Code Template
  */
-package org.jini.projects.zenith.resources.threads;
+package org.blarty.zenith.resources.threads;
 
 /**
  * @author calum

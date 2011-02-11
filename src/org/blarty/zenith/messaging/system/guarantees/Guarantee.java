@@ -1,5 +1,5 @@
 /*
- * apollo2 : org.jini.projects.zenith.messaging.system.guarantees
+ * apollo2 : org.blarty.zenith.messaging.system.guarantees
  * 
  * 
  * Guarantee.java
@@ -8,7 +8,7 @@
  * Guarantee
  *
  */
-package org.jini.projects.zenith.messaging.system.guarantees;
+package org.blarty.zenith.messaging.system.guarantees;
 
 import net.jini.id.Uuid;
 

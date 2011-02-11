@@ -4,7 +4,7 @@
  * Created on March 26, 2002, 10:11 AM
  */
 
-package org.jini.projects.zenith.resources;
+package org.blarty.zenith.resources;
 
 import java.util.Collection;
 import java.util.HashMap;

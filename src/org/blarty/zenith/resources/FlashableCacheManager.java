@@ -4,7 +4,7 @@
  * Created on April 8, 2002, 10:21 AM
  */
 
-package org.jini.projects.zenith.resources;
+package org.blarty.zenith.resources;
 
 
 import java.util.regex.Matcher;

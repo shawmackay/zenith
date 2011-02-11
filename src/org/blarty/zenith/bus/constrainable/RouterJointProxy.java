@@ -1,12 +1,12 @@
 /*
- * Apollo : org.jini.projects.zenith.bus.constrainable
+ * Apollo : org.blarty.zenith.bus.constrainable
  * 
  * 
  * RouterJointProxy.java
  * Created on 29-Jul-2003
  *
  */
-package org.jini.projects.zenith.bus.constrainable;
+package org.blarty.zenith.bus.constrainable;
 
 import java.io.Serializable;
 import java.rmi.RemoteException;
@@ -17,9 +17,9 @@ import net.jini.core.constraint.RemoteMethodControl;
 import net.jini.id.ReferentUuids;
 import net.jini.id.Uuid;
 
-import org.jini.projects.zenith.exceptions.NoSuchSubscriberException;
-import org.jini.projects.zenith.messaging.messages.Message;
-import org.jini.projects.zenith.router.RouterJoint;
+import org.blarty.zenith.exceptions.NoSuchSubscriberException;
+import org.blarty.zenith.messaging.messages.Message;
+import org.blarty.zenith.router.RouterJoint;
 
 
 
@@ -28,7 +28,7 @@ import org.jini.projects.zenith.router.RouterJoint;
  */
 public class RouterJointProxy implements RouterJoint, Serializable{
 	private static final long serialVersionUID = 3L;
-		static Logger log = Logger.getLogger("org.jini.projects.zenith");
+		static Logger log = Logger.getLogger("org.blarty.zenith");
 		RouterJoint backend;
 		Uuid proxyID;
 
@@ -152,7 +152,7 @@ public class RouterJointProxy implements RouterJoint, Serializable{
 	}
 
 	/* (non-Javadoc)
-	 * @see org.jini.projects.zenith.router.RouterJoint#getNameSpace()
+	 * @see org.blarty.zenith.router.RouterJoint#getNameSpace()
 	 */
 	public String getNameSpace() throws RemoteException {
 		// URGENT Complete method stub for getNameSpace

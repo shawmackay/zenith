@@ -1,4 +1,4 @@
-package org.jini.projects.zenith.endpoints;
+package org.blarty.zenith.endpoints;
 
 import net.jini.id.Uuid;
 

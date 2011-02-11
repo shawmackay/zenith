@@ -1,12 +1,12 @@
 /*
- * Apollo : org.jini.projects.zenith.router
+ * Apollo : org.blarty.zenith.router
  * 
  * 
  * RouterStartup.java
  * Created on 29-Jul-2003
  *
  */
-package org.jini.projects.zenith.router;
+package org.blarty.zenith.router;
 
 import java.io.IOException;
 import java.rmi.RMISecurityManager;
@@ -27,7 +27,7 @@ import net.jini.jeri.http.HttpServerEndpoint;
 import net.jini.lookup.JoinManager;
 import net.jini.lookup.entry.Name;
 
-import org.jini.projects.zenith.router.constrainable.RouterProxy;
+import org.blarty.zenith.router.constrainable.RouterProxy;
 
 /**
  * @author calum

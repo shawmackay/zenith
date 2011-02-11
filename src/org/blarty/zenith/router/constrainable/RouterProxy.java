@@ -1,12 +1,12 @@
 /*
- * Apollo : org.jini.projects.zenith.router.constrainable
+ * Apollo : org.blarty.zenith.router.constrainable
  * 
  * 
  * RouterProxy.java
  * Created on 29-Jul-2003
  *
  */
-package org.jini.projects.zenith.router.constrainable;
+package org.blarty.zenith.router.constrainable;
 
 import java.io.Serializable;
 import java.rmi.RemoteException;
@@ -17,10 +17,10 @@ import net.jini.core.constraint.RemoteMethodControl;
 import net.jini.id.ReferentUuids;
 import net.jini.id.Uuid;
 
-import org.jini.projects.zenith.exceptions.NoSuchSubscriberException;
-import org.jini.projects.zenith.messaging.messages.Message;
-import org.jini.projects.zenith.router.RouterJoint;
-import org.jini.projects.zenith.router.RouterService;
+import org.blarty.zenith.exceptions.NoSuchSubscriberException;
+import org.blarty.zenith.messaging.messages.Message;
+import org.blarty.zenith.router.RouterJoint;
+import org.blarty.zenith.router.RouterService;
 
 
 /**
@@ -28,7 +28,7 @@ import org.jini.projects.zenith.router.RouterService;
  */
 public class RouterProxy implements RouterService, Serializable {
 	private static final long serialVersionUID = 2L;
-	static Logger log = Logger.getLogger("org.jini.projects.zenith");
+	static Logger log = Logger.getLogger("org.blarty.zenith");
 	final RouterService backend;
 	final Uuid proxyID;
 
@@ -112,7 +112,7 @@ public class RouterProxy implements RouterService, Serializable {
 
 	}
 	/* (non-Javadoc)
-	 * @see org.jini.projects.zenith.router.RouterService#deregisterNodePoint(org.jini.projects.zenith.router.RouterJoint)
+	 * @see org.blarty.zenith.router.RouterService#deregisterNodePoint(org.blarty.zenith.router.RouterJoint)
 	 */
 	public void deregisterNodePoint(RouterJoint point) throws RemoteException {
 		// TODO Complete method stub for deregisterNodePoint
@@ -121,7 +121,7 @@ public class RouterProxy implements RouterService, Serializable {
 	}
 
 	/* (non-Javadoc)
-	 * @see org.jini.projects.zenith.router.RouterService#sendDirectedMessage(net.jini.id.Uuid, org.jini.projects.zenith.message.Message, java.lang.String)
+	 * @see org.blarty.zenith.router.RouterService#sendDirectedMessage(net.jini.id.Uuid, org.blarty.zenith.message.Message, java.lang.String)
 	 */
 	public void  sendDirectedMessage(Uuid subscriber, Message m, String namespace) throws NoSuchSubscriberException, RemoteException {
 		// URGENT Complete method stub for sendDirectedMessage
@@ -129,7 +129,7 @@ public class RouterProxy implements RouterService, Serializable {
 	}
 
 	/* (non-Javadoc)
-	 * @see org.jini.projects.zenith.router.RouterService#sendMessage(org.jini.projects.zenith.message.Message, java.lang.String)
+	 * @see org.blarty.zenith.router.RouterService#sendMessage(org.blarty.zenith.message.Message, java.lang.String)
 	 */
 	public void sendMessage(String channelName ,Message m, String namespace) throws NoSuchSubscriberException, RemoteException {
 		// URGENT Complete method stub for sendMessage

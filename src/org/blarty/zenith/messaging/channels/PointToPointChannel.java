@@ -5,7 +5,7 @@
  * Java - Code Generation - Code and Comments
  */
 
-package org.jini.projects.zenith.messaging.channels;
+package org.blarty.zenith.messaging.channels;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -13,16 +13,16 @@ import java.util.Collections;
 import java.util.List;
 import java.util.logging.Logger;
 
-import org.jini.projects.zenith.messaging.channels.connectors.MessageReceiver;
-import org.jini.projects.zenith.messaging.channels.connectors.PublishingQConnector;
-import org.jini.projects.zenith.messaging.channels.connectors.PublishingQConnectorImpl;
-import org.jini.projects.zenith.messaging.channels.connectors.ReceivingQConnector;
-import org.jini.projects.zenith.messaging.channels.connectors.ReceivingQConnectorImpl;
-import org.jini.projects.zenith.messaging.messages.Message;
-import org.jini.projects.zenith.messaging.system.ChannelException;
-import org.jini.projects.zenith.messaging.system.ChannelPublisher;
-import org.jini.projects.zenith.messaging.system.MessagingListener;
-import org.jini.projects.zenith.messaging.system.store.StoreSystem;
+import org.blarty.zenith.messaging.channels.connectors.MessageReceiver;
+import org.blarty.zenith.messaging.channels.connectors.PublishingQConnector;
+import org.blarty.zenith.messaging.channels.connectors.PublishingQConnectorImpl;
+import org.blarty.zenith.messaging.channels.connectors.ReceivingQConnector;
+import org.blarty.zenith.messaging.channels.connectors.ReceivingQConnectorImpl;
+import org.blarty.zenith.messaging.messages.Message;
+import org.blarty.zenith.messaging.system.ChannelException;
+import org.blarty.zenith.messaging.system.ChannelPublisher;
+import org.blarty.zenith.messaging.system.MessagingListener;
+import org.blarty.zenith.messaging.system.store.StoreSystem;
 
 
 
@@ -39,7 +39,7 @@ public class PointToPointChannel implements MessageChannel, PublishingChannel, R
 	MessagingListener listener;
 	MessageReceiver currentSubscriber;
 	private boolean guaranteed;
-	Logger l = Logger.getLogger("org.jini.projects.zenith.messaging.channels");
+	Logger l = Logger.getLogger("org.blarty.zenith.messaging.channels");
 
 	public PointToPointChannel(String name) {
 		this.name = name;
@@ -106,7 +106,7 @@ public class PointToPointChannel implements MessageChannel, PublishingChannel, R
                 if(guaranteed){
                     l.finest("Channel is storing a message");
                     try {
-                        StoreSystem sys = new StoreSystem(System.getProperty("org.jini.projects.zenith.messaging.system.store.dir"));
+                        StoreSystem sys = new StoreSystem(System.getProperty("org.blarty.zenith.messaging.system.store.dir"));
                         sys.store(name, m);
                         l.finest("Channel " + name + " has stored the Message with ID " + m.getHeader().getRequestID());
                     } catch (IOException e) {
@@ -143,7 +143,7 @@ public class PointToPointChannel implements MessageChannel, PublishingChannel, R
 	}
 
 	/*
-	 * @see org.jini.projects.zenith.messaging.channels.MessageChannel#getOutstanding()
+	 * @see org.blarty.zenith.messaging.channels.MessageChannel#getOutstanding()
 	 */
 	public int getOutstanding() {
 		// TODO Complete method stub for getOutstanding
@@ -154,7 +154,7 @@ public class PointToPointChannel implements MessageChannel, PublishingChannel, R
 	}
 
 	/*
-	 * @see org.jini.projects.zenith.messaging.channels.ReceiverChannel#removeListenerFor(org.jini.projects.zenith.messaging.channels.connectors.ReceivingQConnector)
+	 * @see org.blarty.zenith.messaging.channels.ReceiverChannel#removeListenerFor(org.blarty.zenith.messaging.channels.connectors.ReceivingQConnector)
 	 */
 	public boolean removeListenerFor(ReceivingQConnector connect) {
 		if (connect.equals(currentSubscriber)) {

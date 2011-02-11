@@ -1,4 +1,4 @@
-package org.jini.projects.zenith.bus;
+package org.blarty.zenith.bus;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
@@ -7,17 +7,17 @@ import java.util.logging.Logger;
 
 import net.jini.id.Uuid;
 
-import org.jini.projects.zenith.messaging.channels.PublishSubscribeChannel;
-import org.jini.projects.zenith.messaging.channels.ReceiverChannel;
-import org.jini.projects.zenith.messaging.channels.connectors.PublishingQConnector;
-import org.jini.projects.zenith.messaging.messages.Message;
-import org.jini.projects.zenith.messaging.system.ChannelException;
-import org.jini.projects.zenith.messaging.system.MessagingListener;
-import org.jini.projects.zenith.messaging.system.MessagingManager;
+import org.blarty.zenith.messaging.channels.PublishSubscribeChannel;
+import org.blarty.zenith.messaging.channels.ReceiverChannel;
+import org.blarty.zenith.messaging.channels.connectors.PublishingQConnector;
+import org.blarty.zenith.messaging.messages.Message;
+import org.blarty.zenith.messaging.system.ChannelException;
+import org.blarty.zenith.messaging.system.MessagingListener;
+import org.blarty.zenith.messaging.system.MessagingManager;
 
 
 // Created as: 13-Jan-2003 : enclosing_type :ApolloBus.java
-// In org.jini.projects.zenith.bus
+// In org.blarty.zenith.bus
 /**
 * @author calum
 *
@@ -26,7 +26,7 @@ public class ApolloBus implements Bus {
 	String name;
 	String dat;
 	Random rand = new Random(System.currentTimeMillis());
-	Logger l = Logger.getLogger("org.jini.projects.zenith.Bus");
+	Logger l = Logger.getLogger("org.blarty.zenith.Bus");
 	//HashMap attachedBuses = new HashMap();
 	MessagingManager mgr = MessagingManager.getManager();
 	
@@ -39,7 +39,7 @@ public class ApolloBus implements Bus {
 	}
 	
 	/**
-	* @see org.jini.projects.zenith.bus.Bus#subscribe(java.lang.String)
+	* @see org.blarty.zenith.bus.Bus#subscribe(java.lang.String)
 	*/
 	public BusToken subscribe(String topic, MessagingListener callback) {
 		ReceiverChannel channel = null;
@@ -64,7 +64,7 @@ public class ApolloBus implements Bus {
 	}
 	
 	/**
-	* @see org.jini.projects.zenith.bus.Bus#unsubscribe(org.jini.projects.zenith.bus.BusToken)
+	* @see org.blarty.zenith.bus.Bus#unsubscribe(org.blarty.zenith.bus.BusToken)
 	*/
 	/*
 	* public void unsubscribe(BusToken tok) { String tokstr = (String)
@@ -108,7 +108,7 @@ public class ApolloBus implements Bus {
 	}
 	
 	/**
-	* @see org.jini.projects.zenith.bus.Bus#sendMessage
+	* @see org.blarty.zenith.bus.Bus#sendMessage
 	*/
 	public void sendMessage(String channelName, Message mesg) {
 		l.finest("Checking channels");
@@ -126,8 +126,8 @@ public class ApolloBus implements Bus {
 	/*
 	* (non-Javadoc)
 	*
-	* @see org.jini.projects.zenith.bus.Bus#sendDirectedMessage(net.jini.id.Uuid,
-	*           org.jini.projects.zenith.message.Message)
+	* @see org.blarty.zenith.bus.Bus#sendDirectedMessage(net.jini.id.Uuid,
+	*           org.blarty.zenith.message.Message)
 	*/
 	public void sendDirectedMessage(Uuid identity, Message mesg) {
 		l.finest("Checking channels");
@@ -146,7 +146,7 @@ public class ApolloBus implements Bus {
 	/*
 	* (non-Javadoc)
 	*
-	* @see org.jini.projects.zenith.bus.Bus#hostsSubscriber(net.jini.id.Uuid)
+	* @see org.blarty.zenith.bus.Bus#hostsSubscriber(net.jini.id.Uuid)
 	*/
 	public boolean hostsSubscriber(Uuid identity) {
 		// TODO Complete method stub for hostsSubscriber
@@ -157,7 +157,7 @@ public class ApolloBus implements Bus {
 	/*
 	* (non-Javadoc)
 	*
-	* @see org.jini.projects.zenith.bus.Bus#hostsTopic(java.lang.String)
+	* @see org.blarty.zenith.bus.Bus#hostsTopic(java.lang.String)
 	*/
 	//URGENT Need to check for cyclical calls.
 	public boolean hostsTopic(String topic) {
@@ -182,7 +182,7 @@ public class ApolloBus implements Bus {
 	/*
 	* (non-Javadoc)
 	*
-	* @see org.jini.projects.zenith.bus.Bus#addLink(org.jini.projects.zenith.bus.Bus)
+	* @see org.blarty.zenith.bus.Bus#addLink(org.blarty.zenith.bus.Bus)
 	*/
 	public void addLink(String name, Bus linkBus) {
 		// TODO Complete method stub for addLink
@@ -192,7 +192,7 @@ public class ApolloBus implements Bus {
 	/*
 	* (non-Javadoc)
 	*
-	* @see org.jini.projects.zenith.bus.Bus#getName()
+	* @see org.blarty.zenith.bus.Bus#getName()
 	*/
 	public String getName() {
 		// URGENT Complete method stub for getName

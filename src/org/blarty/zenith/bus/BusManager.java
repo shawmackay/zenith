@@ -1,11 +1,11 @@
 /*
-* Apollo : org.jini.projects.zenith.bus
+* Apollo : org.blarty.zenith.bus
 *
 *
 * BusLoader.java Created on 29-Jul-2003
 *
 */
-package org.jini.projects.zenith.bus;
+package org.blarty.zenith.bus;
 
 import java.io.IOException;
 import java.rmi.RMISecurityManager;
@@ -36,9 +36,9 @@ import net.jini.lookup.ServiceDiscoveryListener;
 import net.jini.lookup.ServiceDiscoveryManager;
 import net.jini.lookup.ServiceItemFilter;
 
-import org.jini.projects.zenith.bus.constrainable.RouterJointProxy;
-import org.jini.projects.zenith.router.RouterJoint;
-import org.jini.projects.zenith.router.RouterService;
+import org.blarty.zenith.bus.constrainable.RouterJointProxy;
+import org.blarty.zenith.router.RouterJoint;
+import org.blarty.zenith.router.RouterService;
 
 /**
 * @author calum
@@ -46,7 +46,7 @@ import org.jini.projects.zenith.router.RouterService;
 public class BusManager implements ServiceDiscoveryListener{
 	
 	Bus mesgBus;
-	Logger l = Logger.getLogger("org.jini.projects.zenith.bus.RouterJoint");
+	Logger l = Logger.getLogger("org.blarty.zenith.bus.RouterJoint");
 	private Remote r;
 	private RouterJoint rj;
 	private Exporter exp;
@@ -66,7 +66,7 @@ public class BusManager implements ServiceDiscoveryListener{
 		super();
 		this.config = config;
 		try {
-			String[] routerLookupGroups =(String[]) config.getEntry("org.jini.projects.zenith.router","initialLookupGroups",String[].class, LookupDiscovery.NO_GROUPS);
+			String[] routerLookupGroups =(String[]) config.getEntry("org.blarty.zenith.router","initialLookupGroups",String[].class, LookupDiscovery.NO_GROUPS);
 			for (int i = 0; i <routerLookupGroups.length; i++) {
 				l.finest("BusManager looking in group: " + routerLookupGroups[i]);
 			}

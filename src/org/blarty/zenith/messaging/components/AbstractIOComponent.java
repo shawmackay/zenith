@@ -1,10 +1,10 @@
-package org.jini.projects.zenith.messaging.components;
+package org.blarty.zenith.messaging.components;
 
-import org.jini.projects.zenith.messaging.channels.PublishingChannel;
-import org.jini.projects.zenith.messaging.channels.ReceiverChannel;
-import org.jini.projects.zenith.messaging.system.ChannelAction;
-import org.jini.projects.zenith.messaging.system.ChannelDispatcher;
-import org.jini.projects.zenith.messaging.system.ChannelException;
+import org.blarty.zenith.messaging.channels.PublishingChannel;
+import org.blarty.zenith.messaging.channels.ReceiverChannel;
+import org.blarty.zenith.messaging.system.ChannelAction;
+import org.blarty.zenith.messaging.system.ChannelDispatcher;
+import org.blarty.zenith.messaging.system.ChannelException;
 
 public abstract class AbstractIOComponent implements IOComponent {
 

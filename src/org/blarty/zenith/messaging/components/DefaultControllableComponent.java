@@ -1,5 +1,5 @@
 /*
- * zenith : org.jini.projects.zenith.messaging.routers
+ * zenith : org.blarty.zenith.messaging.routers
  *
  *
  * RecipientList.java
@@ -9,19 +9,19 @@
  *
  */
 
-package org.jini.projects.zenith.messaging.components;
+package org.blarty.zenith.messaging.components;
 
 import java.util.logging.Logger;
 
-import org.jini.projects.zenith.messaging.channels.PublishingChannel;
-import org.jini.projects.zenith.messaging.channels.ReceiverChannel;
-import org.jini.projects.zenith.messaging.messages.Message;
-import org.jini.projects.zenith.messaging.system.ChannelAction;
-import org.jini.projects.zenith.messaging.system.ChannelDispatcher;
-import org.jini.projects.zenith.messaging.system.ChannelException;
-import org.jini.projects.zenith.messaging.system.ControllableChannelAction;
-import org.jini.projects.zenith.messaging.system.MessagingListener;
-import org.jini.projects.zenith.messaging.system.UnsupportedActionException;
+import org.blarty.zenith.messaging.channels.PublishingChannel;
+import org.blarty.zenith.messaging.channels.ReceiverChannel;
+import org.blarty.zenith.messaging.messages.Message;
+import org.blarty.zenith.messaging.system.ChannelAction;
+import org.blarty.zenith.messaging.system.ChannelDispatcher;
+import org.blarty.zenith.messaging.system.ChannelException;
+import org.blarty.zenith.messaging.system.ControllableChannelAction;
+import org.blarty.zenith.messaging.system.MessagingListener;
+import org.blarty.zenith.messaging.system.UnsupportedActionException;
 
 /**
  * @author calum
@@ -33,7 +33,7 @@ public class DefaultControllableComponent implements ControllableComponent {
 
         PublishingChannel invalidChannel;
 
-        Logger log = Logger.getLogger("org.jini.projects.zenith.messaging.routers");
+        Logger log = Logger.getLogger("org.blarty.zenith.messaging.routers");
 
         private ChannelDispatcher currentDispatcher;
 

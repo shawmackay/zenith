@@ -1,5 +1,5 @@
 /*
- * zenith : org.jini.projects.zenith.messaging.endpoints
+ * zenith : org.blarty.zenith.messaging.endpoints
  * 
  * 
  * StoringEndpoint.java
@@ -9,7 +9,7 @@
  *
  */
 
-package org.jini.projects.zenith.messaging.endpoints;
+package org.blarty.zenith.messaging.endpoints;
 
 import java.io.BufferedOutputStream;
 import java.io.File;
@@ -21,9 +21,9 @@ import java.io.ObjectOutputStream;
 import net.jini.id.Uuid;
 import net.jini.id.UuidFactory;
 
-import org.jini.projects.zenith.messaging.channels.ReceiverChannel;
-import org.jini.projects.zenith.messaging.system.ChannelException;
-import org.jini.projects.zenith.messaging.system.MessagingListener;
+import org.blarty.zenith.messaging.channels.ReceiverChannel;
+import org.blarty.zenith.messaging.system.ChannelException;
+import org.blarty.zenith.messaging.system.MessagingListener;
 
 /**
  * @author calum
@@ -45,7 +45,7 @@ public class StoringEndpoint {
 			storeTo = directory;
 		}
 		
-		public void messageReceived(org.jini.projects.zenith.messaging.messages.Message m) {
+		public void messageReceived(org.blarty.zenith.messaging.messages.Message m) {
 			System.out.println("Received a message");
 			Uuid id = UuidFactory.generate();
 			File f = new File(storeTo, id.toString()+".msg");

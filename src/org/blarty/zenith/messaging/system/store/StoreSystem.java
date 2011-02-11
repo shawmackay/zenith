@@ -4,7 +4,7 @@
 * Created on 18 October 2004, 13:29
 */
 
-package org.jini.projects.zenith.messaging.system.store;
+package org.blarty.zenith.messaging.system.store;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -17,9 +17,9 @@ import java.util.logging.Logger;
 import net.jini.config.Configuration;
 import net.jini.config.ConfigurationException;
 
-import org.jini.projects.zenith.messaging.messages.Message;
-import org.jini.projects.zenith.messaging.messages.MessageHeader;
-import org.jini.projects.zenith.messaging.messages.StringMessage;
+import org.blarty.zenith.messaging.messages.Message;
+import org.blarty.zenith.messaging.messages.MessageHeader;
+import org.blarty.zenith.messaging.messages.StringMessage;
 
 /**
 *
@@ -28,7 +28,7 @@ import org.jini.projects.zenith.messaging.messages.StringMessage;
 public class StoreSystem {
     
         
-        Logger l = Logger.getLogger("org.jini.projects.zenith.messaging.system");
+        Logger l = Logger.getLogger("org.blarty.zenith.messaging.system");
         private File directory;
         public StoreSystem(String directoryName) throws IOException{
                 directory = new File(directoryName);

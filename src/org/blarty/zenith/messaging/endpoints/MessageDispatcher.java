@@ -8,7 +8,7 @@
  *  
  */
 
-package org.jini.projects.zenith.messaging.endpoints;
+package org.blarty.zenith.messaging.endpoints;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -16,20 +16,20 @@ import java.util.logging.Logger;
 
 import net.jini.id.Uuid;
 
-import org.jini.projects.zenith.messaging.channels.ReceiverChannel;
-import org.jini.projects.zenith.messaging.channels.connectors.ReceivingQConnector;
-import org.jini.projects.zenith.messaging.messages.Message;
-import org.jini.projects.zenith.messaging.messages.ObjectMessage;
-import org.jini.projects.zenith.messaging.system.ChannelException;
-import org.jini.projects.zenith.messaging.system.MessagingListener;
-import org.jini.projects.zenith.messaging.system.MessagingManager;
+import org.blarty.zenith.messaging.channels.ReceiverChannel;
+import org.blarty.zenith.messaging.channels.connectors.ReceivingQConnector;
+import org.blarty.zenith.messaging.messages.Message;
+import org.blarty.zenith.messaging.messages.ObjectMessage;
+import org.blarty.zenith.messaging.system.ChannelException;
+import org.blarty.zenith.messaging.system.MessagingListener;
+import org.blarty.zenith.messaging.system.MessagingManager;
 /**
  * @author calum
  */
 public class MessageDispatcher {
 	ArrayList dispatchers;
 	String inputChannelName;
-	Logger log = Logger.getLogger("org.jini.projects.zenith.messaging.endpoints");
+	Logger log = Logger.getLogger("org.blarty.zenith.messaging.endpoints");
 
 	public MessageDispatcher(ReceiverChannel input, ReceiverChannel controlChannel) {
 		dispatchers = new ArrayList();

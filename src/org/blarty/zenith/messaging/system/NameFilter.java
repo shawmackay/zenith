@@ -6,7 +6,7 @@
  * Created on 22-Jul-2003
  *
  */
-package org.jini.projects.zenith.messaging.system;
+package org.blarty.zenith.messaging.system;
 
 import net.jini.core.entry.Entry;
 import net.jini.core.lookup.ServiceItem;

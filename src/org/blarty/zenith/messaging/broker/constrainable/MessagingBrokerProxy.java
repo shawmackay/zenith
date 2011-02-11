@@ -1,5 +1,5 @@
 /*
- * apollo2 : org.jini.projects.zenith.messaging.broker.constrainable
+ * apollo2 : org.blarty.zenith.messaging.broker.constrainable
  * 
  * 
  * MessagingBrokerProxy.java
@@ -8,7 +8,7 @@
  * MessagingBrokerProxy
  *
  */
-package org.jini.projects.zenith.messaging.broker.constrainable;
+package org.blarty.zenith.messaging.broker.constrainable;
 
 import java.io.Serializable;
 import java.rmi.RemoteException;
@@ -24,7 +24,7 @@ import net.jini.core.lookup.ServiceID;
 import net.jini.id.ReferentUuids;
 import net.jini.id.Uuid;
 
-import org.jini.projects.zenith.messaging.broker.MessageBroker;
+import org.blarty.zenith.messaging.broker.MessageBroker;
 
 
 /**

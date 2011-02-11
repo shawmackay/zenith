@@ -2,11 +2,11 @@
 <channelMap name="firstMap" version="1.0">
     <channels>
         <channel name="routing"/>
-        <channel name="filter1" listenerclass="org.jini.projects.zenith.messaging.test.items.cbr.CBRListener1"/>
-        <channel name="filter2" listenerclass="org.jini.projects.zenith.messaging.test.items.cbr.CBRListener2"/>
-        <channel name="filter3" listenerclass="org.jini.projects.zenith.messaging.test.items.cbr.CBRListener3"/>
+        <channel name="filter1" listenerclass="org.blarty.zenith.messaging.test.items.cbr.CBRListener1"/>
+        <channel name="filter2" listenerclass="org.blarty.zenith.messaging.test.items.cbr.CBRListener2"/>
+        <channel name="filter3" listenerclass="org.blarty.zenith.messaging.test.items.cbr.CBRListener3"/>
         <channel name="controlCBR"/>
-        <channel name="invalid" type="org.jini.projects.zenith.messaging.channels.InvalidMessageChannel"/>
+        <channel name="invalid" type="org.blarty.zenith.messaging.channels.InvalidMessageChannel"/>
     </channels>
     <endpoints>
         <endpoint id="CBR">
@@ -24,7 +24,7 @@
             <content>
                 <filterLink>
                     <linkchannel id="filter1"/>
-                    <filter class="org.jini.projects.zenith.messaging.test.items.cbr.CBRFilter1"/>
+                    <filter class="org.blarty.zenith.messaging.test.items.cbr.CBRFilter1"/>
                 </filterLink>
             </content>
         </send>
@@ -33,7 +33,7 @@
             <content>
                 <filterLink>
                     <linkchannel id="filter2"/>
-                    <filter class="org.jini.projects.zenith.messaging.test.items.cbr.CBRFilter2"/>
+                    <filter class="org.blarty.zenith.messaging.test.items.cbr.CBRFilter2"/>
                 </filterLink>
             </content>
         </send>
@@ -42,7 +42,7 @@
             <content>
                 <filterLink>
                     <linkchannel id="filter3"/>
-                    <filter class="org.jini.projects.zenith.messaging.test.items.cbr.CBRFilter3"/>
+                    <filter class="org.blarty.zenith.messaging.test.items.cbr.CBRFilter3"/>
                 </filterLink>
             </content>
         </send>
@@ -53,7 +53,7 @@
             <content>
                 <filterLink>
                     <linkchannel id="filter3"/>
-                    <filter class="org.jini.projects.zenith.messaging.test.items.cbr.CBRFilter3"/>
+                    <filter class="org.blarty.zenith.messaging.test.items.cbr.CBRFilter3"/>
                 </filterLink>
             </content>
         </send>

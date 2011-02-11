@@ -4,7 +4,7 @@
  * Created on March 25, 2002, 3:27 PM
  */
 
-package org.jini.projects.zenith.resources;
+package org.blarty.zenith.resources;
 
 /**
  * Additional Pool methods for calsses wanting to handle the Object LifeCycle of it's contained objects

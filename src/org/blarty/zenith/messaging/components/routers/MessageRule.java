@@ -1,5 +1,5 @@
 /*
- * zenith : org.jini.projects.zenith.messaging.routers
+ * zenith : org.blarty.zenith.messaging.routers
  * 
  * 
  * MessageRule.java
@@ -8,9 +8,9 @@
  * MessageRule
  *
  */
-package org.jini.projects.zenith.messaging.components.routers;
+package org.blarty.zenith.messaging.components.routers;
 
-import org.jini.projects.zenith.messaging.messages.Message;
+import org.blarty.zenith.messaging.messages.Message;
 
 /**
  * @author calum

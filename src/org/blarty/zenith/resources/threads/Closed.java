@@ -1,4 +1,4 @@
-package org.jini.projects.zenith.resources.threads;
+package org.blarty.zenith.resources.threads;
 /***********************************************
 The Closed exception is thrown if you try to used an explicitly
 closed queue. See close.

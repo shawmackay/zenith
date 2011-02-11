@@ -1,15 +1,15 @@
-package org.jini.projects.zenith.endpoints;
+package org.blarty.zenith.endpoints;
 
 import net.jini.id.Uuid;
 
-import org.jini.projects.zenith.messaging.messages.Message;
+import org.blarty.zenith.messaging.messages.Message;
 
 
 
 
 
 // Created as: 13-Jan-2003 : enclosing_type :Subscriber.java
-// In org.jini.projects.zenith.endpoints
+// In org.blarty.zenith.endpoints
 /**
  * All subscribers to a topic must be able to show some form
  * of unique identity and the ability to handle a message.

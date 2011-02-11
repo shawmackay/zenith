@@ -1,14 +1,14 @@
-package org.jini.projects.zenith.messaging.test;
+package org.blarty.zenith.messaging.test;
 
 import java.rmi.RMISecurityManager;
 
 import net.jini.config.ConfigurationProvider;
 
-import org.jini.projects.zenith.messaging.channels.MessageChannel;
-import org.jini.projects.zenith.messaging.channels.ReceiverChannel;
-import org.jini.projects.zenith.messaging.components.ControllableComponent;
-import org.jini.projects.zenith.messaging.components.DefaultControllableComponent;
-import org.jini.projects.zenith.messaging.system.MessagingManager;
+import org.blarty.zenith.messaging.channels.MessageChannel;
+import org.blarty.zenith.messaging.channels.ReceiverChannel;
+import org.blarty.zenith.messaging.components.ControllableComponent;
+import org.blarty.zenith.messaging.components.DefaultControllableComponent;
+import org.blarty.zenith.messaging.system.MessagingManager;
 
 public class RecipientListTest {
 
@@ -18,7 +18,7 @@ public class RecipientListTest {
         public static void main(String[] args) throws Exception {
                 // TODO Auto-generated method stub
                 System.out.println("Starting test Harness");
-                System.setProperty("org.jini.projects.zenith.messaging.system.store.dir", "zenithlogs");
+                System.setProperty("org.blarty.zenith.messaging.system.store.dir", "zenithlogs");
                 System.setSecurityManager(new RMISecurityManager());
                 MessagingManager.createManager("default", ConfigurationProvider.getInstance(new String[]{"conf/messagingMgr.config"}));
                 MessagingManager mgr = MessagingManager.getManager();

@@ -4,7 +4,7 @@
  * Created on March 20, 2002, 10:11 AM
  */
 
-package org.jini.projects.zenith.resources;
+package org.blarty.zenith.resources;
 
 /**
  * Interface which implies that an object may cache another object, and

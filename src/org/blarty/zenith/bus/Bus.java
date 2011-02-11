@@ -1,15 +1,15 @@
-package org.jini.projects.zenith.bus;
+package org.blarty.zenith.bus;
 
 
 
 import net.jini.id.Uuid;
 
-import org.jini.projects.zenith.messaging.messages.Message;
+import org.blarty.zenith.messaging.messages.Message;
 
 
 
 // Created as: 13-Jan-2003 : enclosing_type :Bus.java
-// In org.jini.projects.zenith.bus
+// In org.blarty.zenith.bus
 /**
  * 
  * @author calum

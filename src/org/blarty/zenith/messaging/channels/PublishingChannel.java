@@ -1,6 +1,6 @@
-package org.jini.projects.zenith.messaging.channels;
+package org.blarty.zenith.messaging.channels;
 
-import org.jini.projects.zenith.messaging.channels.connectors.PublishingQConnector;
+import org.blarty.zenith.messaging.channels.connectors.PublishingQConnector;
 
 
 /**

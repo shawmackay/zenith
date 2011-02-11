@@ -1,5 +1,5 @@
 /*
- * apollo2 : org.jini.projects.zenith.messaging.system
+ * apollo2 : org.blarty.zenith.messaging.system
  * 
  * 
  * MessagingBrokerImpl.java
@@ -9,7 +9,7 @@
  *
  */
 
-package org.jini.projects.zenith.messaging.broker;
+package org.blarty.zenith.messaging.broker;
 
 import java.rmi.RemoteException;
 import java.util.ArrayList;
@@ -31,8 +31,8 @@ import net.jini.lookup.ServiceDiscoveryEvent;
 import net.jini.lookup.ServiceDiscoveryListener;
 import net.jini.lookup.ServiceDiscoveryManager;
 
-import org.jini.projects.zenith.messaging.broker.leasing.MesgLandlord;
-import org.jini.projects.zenith.messaging.system.MessagingService;
+import org.blarty.zenith.messaging.broker.leasing.MesgLandlord;
+import org.blarty.zenith.messaging.system.MessagingService;
 
 /**
  * Simple Implementation for the Message Broker. The broker maintains a list of
@@ -49,7 +49,7 @@ public class MessageBrokerImpl implements MessageBroker, ServiceDiscoveryListene
 	ArrayList registrations;
 	Map serviceChannels;
 	Map channels;
-	Logger log = Logger.getLogger("org.jini.projects.zenith.messaging.broker");
+	Logger log = Logger.getLogger("org.blarty.zenith.messaging.broker");
 	ServiceDiscoveryManager sdm;
 	LookupCache cache;
 	private long currentEventNum = 0L;
@@ -97,7 +97,7 @@ public void channelAdded(ServiceID messageService, String channelName) throws Re
 			serviceChannels.put(messageService, channelName);
 	}
 	/*
-	 * @see org.jini.projects.zenith.messaging.system.MessagingBroker#channelRemoved(net.jini.core.lookup.ServiceID,
+	 * @see org.blarty.zenith.messaging.system.MessagingBroker#channelRemoved(net.jini.core.lookup.ServiceID,
 	 *           java.lang.String)
 	 */
 	public void channelRemoved(ServiceID messageService, String channelName) throws RemoteException {
@@ -144,7 +144,7 @@ public void channelAdded(ServiceID messageService, String channelName) throws Re
 	}
 
 	/*
-	 * @see org.jini.projects.zenith.messaging.system.MessagingBroker#registerInterest(net.jini.core.event.RemoteEventListener)
+	 * @see org.blarty.zenith.messaging.system.MessagingBroker#registerInterest(net.jini.core.event.RemoteEventListener)
 	 */
 	public EventRegistration registerInterest(long leaseTime, RemoteEventListener mylistener) throws LeaseDeniedException, RemoteException {
 		log.info("Registering for events");
@@ -255,7 +255,7 @@ public void channelAdded(ServiceID messageService, String channelName) throws Re
 	}
 
 	/*
-	 * @see org.jini.projects.zenith.messaging.broker.MessagingBroker#getCurrentlyRegisteredChannels()
+	 * @see org.blarty.zenith.messaging.broker.MessagingBroker#getCurrentlyRegisteredChannels()
 	 */
 	public Map getCurrentlyRegisteredChannels() throws RemoteException {
 		// TODO Complete method stub for getCurrentlyRegisteredChannels
@@ -263,7 +263,7 @@ public void channelAdded(ServiceID messageService, String channelName) throws Re
 	}
 
 	/*
-	 * @see org.jini.projects.zenith.messaging.broker.MessagingBroker#getServiceForChannel(java.lang.String)
+	 * @see org.blarty.zenith.messaging.broker.MessagingBroker#getServiceForChannel(java.lang.String)
 	 */
 	public ServiceID getServiceForChannel(String channelName) throws RemoteException {
 		// TODO Complete method stub for getServiceForChannel

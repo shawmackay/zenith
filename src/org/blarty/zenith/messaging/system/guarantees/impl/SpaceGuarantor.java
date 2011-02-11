@@ -1,5 +1,5 @@
 /*
- * apollo2 : org.jini.projects.zenith.messaging.system.guarantees.impl
+ * apollo2 : org.blarty.zenith.messaging.system.guarantees.impl
  * 
  * 
  * SpaceGuarantor.java
@@ -9,7 +9,7 @@
  *
  */
 
-package org.jini.projects.zenith.messaging.system.guarantees.impl;
+package org.blarty.zenith.messaging.system.guarantees.impl;
 
 import java.rmi.RemoteException;
 import java.util.logging.Logger;
@@ -28,9 +28,9 @@ import net.jini.lease.LeaseRenewalEvent;
 import net.jini.lease.LeaseRenewalManager;
 import net.jini.space.JavaSpace;
 
-import org.jini.projects.zenith.messaging.messages.Message;
-import org.jini.projects.zenith.messaging.system.guarantees.Guarantee;
-import org.jini.projects.zenith.messaging.system.guarantees.Guarantor;
+import org.blarty.zenith.messaging.messages.Message;
+import org.blarty.zenith.messaging.system.guarantees.Guarantee;
+import org.blarty.zenith.messaging.system.guarantees.Guarantor;
 
 /**
  * Use a space (i.e. distributed shared memory) as the gaurantor repository
@@ -42,7 +42,7 @@ public class SpaceGuarantor implements Guarantor {
 	JavaSpace space;
 	TransactionManager tm;
 	LeaseRenewalManager lrm;
-	Logger log = Logger.getLogger("org.jini.projects.zenith.messaging.system.guarantees");
+	Logger log = Logger.getLogger("org.blarty.zenith.messaging.system.guarantees");
 
 	public SpaceGuarantor(JavaSpace space) {
 		this.space = space;

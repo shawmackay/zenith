@@ -1,20 +1,20 @@
 /*
- * Apollo : org.jini.projects.zenith.router
+ * Apollo : org.blarty.zenith.router
  * 
  * 
  * RouterService.java
  * Created on 29-Jul-2003
  *
  */
-package org.jini.projects.zenith.router;
+package org.blarty.zenith.router;
 
 import java.rmi.Remote;
 import java.rmi.RemoteException;
 
 import net.jini.id.Uuid;
 
-import org.jini.projects.zenith.exceptions.NoSuchSubscriberException;
-import org.jini.projects.zenith.messaging.messages.Message;
+import org.blarty.zenith.exceptions.NoSuchSubscriberException;
+import org.blarty.zenith.messaging.messages.Message;
 
 
 /**

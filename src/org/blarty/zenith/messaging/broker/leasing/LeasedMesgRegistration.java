@@ -1,12 +1,12 @@
 /*
- * neon : org.jini.projects.neon.messages.server
+ * neon : org.blarty.neon.messages.server
  * 
  * 
  * LeasedMesgRegistrartio.java
  * Created on 25-Jul-2003
  *
  */
-package org.jini.projects.zenith.messaging.broker.leasing;
+package org.blarty.zenith.messaging.broker.leasing;
 
 import java.rmi.RemoteException;
 

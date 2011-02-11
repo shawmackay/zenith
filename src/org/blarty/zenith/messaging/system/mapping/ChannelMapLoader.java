@@ -1,4 +1,4 @@
-package org.jini.projects.zenith.messaging.system.mapping;
+package org.blarty.zenith.messaging.system.mapping;
 
 import java.io.File;
 import java.lang.reflect.Constructor;
@@ -9,19 +9,19 @@ import javax.xml.parsers.DocumentBuilderFactory;
 
 import net.jini.config.ConfigurationProvider;
 
-import org.jini.projects.zenith.messaging.channels.MessageChannel;
-import org.jini.projects.zenith.messaging.channels.PointToPointChannel;
-import org.jini.projects.zenith.messaging.channels.PublishingChannel;
-import org.jini.projects.zenith.messaging.channels.ReceiverChannel;
-import org.jini.projects.zenith.messaging.components.routers.ChannelFilterLink;
-import org.jini.projects.zenith.messaging.components.routers.ContentBasedRouterAction;
-import org.jini.projects.zenith.messaging.components.routers.Filter;
-import org.jini.projects.zenith.messaging.messages.Message;
-import org.jini.projects.zenith.messaging.messages.MessageHeader;
-import org.jini.projects.zenith.messaging.messages.ObjectMessage;
-import org.jini.projects.zenith.messaging.system.ChannelException;
-import org.jini.projects.zenith.messaging.system.MessagingListener;
-import org.jini.projects.zenith.messaging.system.MessagingManager;
+import org.blarty.zenith.messaging.channels.MessageChannel;
+import org.blarty.zenith.messaging.channels.PointToPointChannel;
+import org.blarty.zenith.messaging.channels.PublishingChannel;
+import org.blarty.zenith.messaging.channels.ReceiverChannel;
+import org.blarty.zenith.messaging.components.routers.ChannelFilterLink;
+import org.blarty.zenith.messaging.components.routers.ContentBasedRouterAction;
+import org.blarty.zenith.messaging.components.routers.Filter;
+import org.blarty.zenith.messaging.messages.Message;
+import org.blarty.zenith.messaging.messages.MessageHeader;
+import org.blarty.zenith.messaging.messages.ObjectMessage;
+import org.blarty.zenith.messaging.system.ChannelException;
+import org.blarty.zenith.messaging.system.MessagingListener;
+import org.blarty.zenith.messaging.system.MessagingManager;
 import org.w3c.dom.DOMException;
 import org.w3c.dom.Document;
 import org.w3c.dom.NamedNodeMap;

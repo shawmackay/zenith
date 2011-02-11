@@ -1,12 +1,12 @@
 /*
- * Apollo : org.jini.projects.zenith.exceptions
+ * Apollo : org.blarty.zenith.exceptions
  * 
  * 
  * NoSuchSubscriberException.java
  * Created on 29-Jul-2003
  *
  */
-package org.jini.projects.zenith.exceptions;
+package org.blarty.zenith.exceptions;
 
 /**
  * @author calum

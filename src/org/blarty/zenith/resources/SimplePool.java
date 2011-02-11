@@ -4,7 +4,7 @@
  * Created on March 25, 2002, 3:33 PM
  */
 
-package org.jini.projects.zenith.resources;
+package org.blarty.zenith.resources;
 
 import java.util.ArrayList;
 import java.util.Collection;

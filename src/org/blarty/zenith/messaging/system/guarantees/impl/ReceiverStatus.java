@@ -1,5 +1,5 @@
 /*
- * apollo2 : org.jini.projects.zenith.messaging.system.guarantees.impl
+ * apollo2 : org.blarty.zenith.messaging.system.guarantees.impl
  * 
  * 
  * ReceiverStatus.java
@@ -8,7 +8,7 @@
  * ReceiverStatus
  *
  */
-package org.jini.projects.zenith.messaging.system.guarantees.impl;
+package org.blarty.zenith.messaging.system.guarantees.impl;
 
 import java.io.Serializable;
 

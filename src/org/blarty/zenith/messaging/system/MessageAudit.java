@@ -7,12 +7,12 @@
  * and open the template in the editor.
  */
 
-package org.jini.projects.zenith.messaging.system;
+package org.blarty.zenith.messaging.system;
 
 import java.util.HashMap;
 import java.util.Map;
 import net.jini.id.Uuid;
-import org.jini.projects.zenith.messaging.messages.Message;
+import org.blarty.zenith.messaging.messages.Message;
 
 /**
  *

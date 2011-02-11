@@ -1,5 +1,5 @@
 /*
- * apollo2 : org.jini.projects.zenith.messaging.broker
+ * apollo2 : org.blarty.zenith.messaging.broker
  * 
  * 
  * BrokerEvent.java
@@ -8,7 +8,7 @@
  * BrokerEvent
  *
  */
-package org.jini.projects.zenith.messaging.broker;
+package org.blarty.zenith.messaging.broker;
 
 import java.rmi.MarshalledObject;
 

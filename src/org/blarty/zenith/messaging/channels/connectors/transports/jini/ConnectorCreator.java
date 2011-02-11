@@ -8,7 +8,7 @@
  * ConnectorCreator
  *
  */
-package org.jini.projects.zenith.messaging.channels.connectors.transports.jini;
+package org.blarty.zenith.messaging.channels.connectors.transports.jini;
 
 import java.rmi.Remote;
 
@@ -16,9 +16,9 @@ import net.jini.core.event.RemoteEventListener;
 import net.jini.id.Uuid;
 
 import org.jini.glyph.chalice.builder.ProxyCreator;
-import org.jini.projects.zenith.messaging.channels.connectors.transports.jini.constrainable.PublishingQConnectorProxy;
-import org.jini.projects.zenith.messaging.channels.connectors.transports.jini.constrainable.ReceivingQConnectorProxy;
-import org.jini.projects.zenith.messaging.channels.connectors.transports.jini.constrainable.RemoteMessagingListenerProxy;
+import org.blarty.zenith.messaging.channels.connectors.transports.jini.constrainable.PublishingQConnectorProxy;
+import org.blarty.zenith.messaging.channels.connectors.transports.jini.constrainable.ReceivingQConnectorProxy;
+import org.blarty.zenith.messaging.channels.connectors.transports.jini.constrainable.RemoteMessagingListenerProxy;
 
 /**
  * @author calum

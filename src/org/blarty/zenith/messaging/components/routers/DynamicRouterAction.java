@@ -9,15 +9,15 @@
  *
  */
 
-package org.jini.projects.zenith.messaging.components.routers;
+package org.blarty.zenith.messaging.components.routers;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import org.jini.projects.zenith.messaging.channels.connectors.PublishingQConnector;
-import org.jini.projects.zenith.messaging.messages.Message;
-import org.jini.projects.zenith.messaging.system.ControllableChannelAction;
-import org.jini.projects.zenith.messaging.system.MessagingManager;
+import org.blarty.zenith.messaging.channels.connectors.PublishingQConnector;
+import org.blarty.zenith.messaging.messages.Message;
+import org.blarty.zenith.messaging.system.ControllableChannelAction;
+import org.blarty.zenith.messaging.system.MessagingManager;
 
 /**
  * @author calum

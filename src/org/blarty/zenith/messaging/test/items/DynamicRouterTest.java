@@ -9,22 +9,22 @@
  *
  */
 
-package org.jini.projects.zenith.messaging.test.items;
+package org.blarty.zenith.messaging.test.items;
 
-import org.jini.projects.zenith.messaging.channels.InvalidMessageChannel;
-import org.jini.projects.zenith.messaging.channels.ReceiverChannel;
-import org.jini.projects.zenith.messaging.channels.connectors.PublishingQConnector;
-import org.jini.projects.zenith.messaging.channels.connectors.ReceivingQConnector;
-import org.jini.projects.zenith.messaging.components.ControllableComponent;
-import org.jini.projects.zenith.messaging.components.DefaultControllableComponent;
-import org.jini.projects.zenith.messaging.components.routers.DynamicRouterAction;
-import org.jini.projects.zenith.messaging.messages.Message;
-import org.jini.projects.zenith.messaging.messages.MessageHeader;
-import org.jini.projects.zenith.messaging.messages.StringMessage;
-import org.jini.projects.zenith.messaging.system.ChannelException;
-import org.jini.projects.zenith.messaging.system.MessagingManager;
-import org.jini.projects.zenith.messaging.system.UnsupportedActionException;
-import org.jini.projects.zenith.messaging.test.TestItem;
+import org.blarty.zenith.messaging.channels.InvalidMessageChannel;
+import org.blarty.zenith.messaging.channels.ReceiverChannel;
+import org.blarty.zenith.messaging.channels.connectors.PublishingQConnector;
+import org.blarty.zenith.messaging.channels.connectors.ReceivingQConnector;
+import org.blarty.zenith.messaging.components.ControllableComponent;
+import org.blarty.zenith.messaging.components.DefaultControllableComponent;
+import org.blarty.zenith.messaging.components.routers.DynamicRouterAction;
+import org.blarty.zenith.messaging.messages.Message;
+import org.blarty.zenith.messaging.messages.MessageHeader;
+import org.blarty.zenith.messaging.messages.StringMessage;
+import org.blarty.zenith.messaging.system.ChannelException;
+import org.blarty.zenith.messaging.system.MessagingManager;
+import org.blarty.zenith.messaging.system.UnsupportedActionException;
+import org.blarty.zenith.messaging.test.TestItem;
 
 
 /**

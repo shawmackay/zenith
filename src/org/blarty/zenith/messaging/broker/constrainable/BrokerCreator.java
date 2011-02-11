@@ -1,5 +1,5 @@
 /*
- * apollo2 : org.jini.projects.zenith.messaging.broker.constrainable
+ * apollo2 : org.blarty.zenith.messaging.broker.constrainable
  * 
  * 
  * BrokerCreator.java
@@ -9,7 +9,7 @@
  *
  */
 
-package org.jini.projects.zenith.messaging.broker.constrainable;
+package org.blarty.zenith.messaging.broker.constrainable;
 
 import java.rmi.Remote;
 
@@ -18,8 +18,8 @@ import net.jini.core.event.RemoteEventListener;
 import net.jini.id.Uuid;
 
 import org.jini.glyph.chalice.builder.ProxyCreator;
-import org.jini.projects.zenith.messaging.broker.MessageBroker;
-import org.jini.projects.zenith.messaging.channels.connectors.transports.jini.constrainable.RemoteMessagingListenerProxy;
+import org.blarty.zenith.messaging.broker.MessageBroker;
+import org.blarty.zenith.messaging.channels.connectors.transports.jini.constrainable.RemoteMessagingListenerProxy;
 
 /**
  * @author calum

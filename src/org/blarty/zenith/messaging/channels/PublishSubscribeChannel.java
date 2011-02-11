@@ -5,21 +5,21 @@
  * Java - Code Generation - Code and Comments
  */
 
-package org.jini.projects.zenith.messaging.channels;
+package org.blarty.zenith.messaging.channels;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-import org.jini.projects.zenith.messaging.channels.connectors.MessageReceiver;
-import org.jini.projects.zenith.messaging.channels.connectors.PublishingQConnector;
-import org.jini.projects.zenith.messaging.channels.connectors.PublishingQConnectorImpl;
-import org.jini.projects.zenith.messaging.channels.connectors.ReceivingQConnector;
-import org.jini.projects.zenith.messaging.channels.connectors.ReceivingQConnectorImpl;
-import org.jini.projects.zenith.messaging.messages.Message;
-import org.jini.projects.zenith.messaging.system.ChannelException;
-import org.jini.projects.zenith.messaging.system.ChannelPublisher;
-import org.jini.projects.zenith.messaging.system.MessagingListener;
+import org.blarty.zenith.messaging.channels.connectors.MessageReceiver;
+import org.blarty.zenith.messaging.channels.connectors.PublishingQConnector;
+import org.blarty.zenith.messaging.channels.connectors.PublishingQConnectorImpl;
+import org.blarty.zenith.messaging.channels.connectors.ReceivingQConnector;
+import org.blarty.zenith.messaging.channels.connectors.ReceivingQConnectorImpl;
+import org.blarty.zenith.messaging.messages.Message;
+import org.blarty.zenith.messaging.system.ChannelException;
+import org.blarty.zenith.messaging.system.ChannelPublisher;
+import org.blarty.zenith.messaging.system.MessagingListener;
 
 
 /**
@@ -98,7 +98,7 @@ public class PublishSubscribeChannel implements MessageChannel, PublishingChanne
 		});
 	}
     
-    /* @see org.jini.projects.zenith.messaging.channels.MessageChannel#getOutstanding()
+    /* @see org.blarty.zenith.messaging.channels.MessageChannel#getOutstanding()
      */
     public int getOutstanding() {
         // TODO Complete method stub for getOutstanding
@@ -106,7 +106,7 @@ public class PublishSubscribeChannel implements MessageChannel, PublishingChanne
     }
     
    
-	/* @see org.jini.projects.zenith.messaging.channels.ReceiverChannel#removeListenerFor(org.jini.projects.zenith.messaging.channels.connectors.ReceivingQConnector)
+	/* @see org.blarty.zenith.messaging.channels.ReceiverChannel#removeListenerFor(org.blarty.zenith.messaging.channels.connectors.ReceivingQConnector)
 	 */
 	public boolean removeListenerFor(ReceivingQConnector connect) {
 		// TODO Complete method stub for removeListenerFor

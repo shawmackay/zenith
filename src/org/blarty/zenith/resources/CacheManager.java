@@ -4,7 +4,7 @@
  * Created on March 21, 2002, 3:49 PM
  */
 
-package org.jini.projects.zenith.resources;
+package org.blarty.zenith.resources;
 
 
 

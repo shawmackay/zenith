@@ -1,21 +1,21 @@
-package org.jini.projects.zenith.messaging.components.routers;
+package org.blarty.zenith.messaging.components.routers;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import org.jini.projects.zenith.messaging.channels.PublishingChannel;
-import org.jini.projects.zenith.messaging.messages.Message;
-import org.jini.projects.zenith.messaging.messages.ObjectMessage;
-import org.jini.projects.zenith.messaging.system.ControllableChannelAction;
-import org.jini.projects.zenith.messaging.system.MessagingManager;
+import org.blarty.zenith.messaging.channels.PublishingChannel;
+import org.blarty.zenith.messaging.messages.Message;
+import org.blarty.zenith.messaging.messages.ObjectMessage;
+import org.blarty.zenith.messaging.system.ControllableChannelAction;
+import org.blarty.zenith.messaging.system.MessagingManager;
 
 public class RecipientListAction implements ControllableChannelAction {
 
         List<MessageRule> rules = new ArrayList<MessageRule>();
 
-        Logger log = Logger.getLogger("org.jini.projects.zenith.messaging.routers");
+        Logger log = Logger.getLogger("org.blarty.zenith.messaging.routers");
 
         public void controlDispatch(Message m) {
                 if (m instanceof ObjectMessage) {

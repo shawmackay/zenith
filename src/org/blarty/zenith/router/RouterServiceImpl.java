@@ -1,12 +1,12 @@
 /*
- * Apollo : org.jini.projects.zenith.router
+ * Apollo : org.blarty.zenith.router
  * 
  * 
  * RouterServiceImpl.java
  * Created on 29-Jul-2003
  *
  */
-package org.jini.projects.zenith.router;
+package org.blarty.zenith.router;
 
 import java.rmi.RemoteException;
 import java.util.ArrayList;
@@ -21,8 +21,8 @@ import java.util.logging.Logger;
 
 import net.jini.id.Uuid;
 
-import org.jini.projects.zenith.exceptions.NoSuchSubscriberException;
-import org.jini.projects.zenith.messaging.messages.Message;
+import org.blarty.zenith.exceptions.NoSuchSubscriberException;
+import org.blarty.zenith.messaging.messages.Message;
 
 
 /**
@@ -42,7 +42,7 @@ public class RouterServiceImpl implements RouterService {
 	}
 
 	/* (non-Javadoc)
-	 * @see org.jini.projects.zenith.router.RouterService#sendMessage(org.jini.projects.zenith.message.Message)
+	 * @see org.blarty.zenith.router.RouterService#sendMessage(org.blarty.zenith.message.Message)
 	 */
 	public void sendMessage(String channelName, Message m) throws NoSuchSubscriberException, RemoteException {
 		// TODO Complete method stub for sendMessage
@@ -76,7 +76,7 @@ public class RouterServiceImpl implements RouterService {
 	}
 
 	/* (non-Javadoc)
-	 * @see org.jini.projects.zenith.router.RouterService#createNodePoint(org.jini.projects.zenith.router.RouterJoint)
+	 * @see org.blarty.zenith.router.RouterService#createNodePoint(org.blarty.zenith.router.RouterJoint)
 	 */
 	public void createNodePoint(RouterJoint point) throws RemoteException {
 		// TODO Complete method stub for createNodePoint
@@ -104,7 +104,7 @@ public class RouterServiceImpl implements RouterService {
 	}
 
 	/* (non-Javadoc)
-	 * @see org.jini.projects.zenith.router.RouterService#sendDirectedMessage(net.jini.id.Uuid, org.jini.projects.zenith.message.Message)
+	 * @see org.blarty.zenith.router.RouterService#sendDirectedMessage(net.jini.id.Uuid, org.blarty.zenith.message.Message)
 	 */
 	public void sendDirectedMessage(Uuid subscriber, Message m) throws NoSuchSubscriberException, RemoteException {
 		// TODO Complete method stub for sendDirectedMessage
@@ -124,7 +124,7 @@ public class RouterServiceImpl implements RouterService {
 	}
 
 	/* (non-Javadoc)
-	 * @see org.jini.projects.zenith.router.RouterService#deregisterNodePoint(org.jini.projects.zenith.router.RouterJoint)
+	 * @see org.blarty.zenith.router.RouterService#deregisterNodePoint(org.blarty.zenith.router.RouterJoint)
 	 */
 	public void deregisterNodePoint(RouterJoint point) throws RemoteException {
 		// TODO Complete method stub for deregisterNodePoint
@@ -172,7 +172,7 @@ public class RouterServiceImpl implements RouterService {
 		System.out.println("Registered namespaces: " + namespaces);
 	}
 	/* (non-Javadoc)
-	 * @see org.jini.projects.zenith.router.RouterService#sendDirectedMessage(net.jini.id.Uuid, org.jini.projects.zenith.message.Message, java.lang.String)
+	 * @see org.blarty.zenith.router.RouterService#sendDirectedMessage(net.jini.id.Uuid, org.blarty.zenith.message.Message, java.lang.String)
 	 */
 	public void sendDirectedMessage(Uuid subscriber, Message m, String namespace) throws NoSuchSubscriberException, RemoteException {
 		ArrayList availableBuses = new ArrayList();
@@ -190,7 +190,7 @@ public class RouterServiceImpl implements RouterService {
 	}
 
 	/* (non-Javadoc)
-	 * @see org.jini.projects.zenith.router.RouterService#sendMessage(org.jini.projects.zenith.message.Message, java.lang.String)
+	 * @see org.blarty.zenith.router.RouterService#sendMessage(org.blarty.zenith.message.Message, java.lang.String)
 	 */
 	public void sendMessage(String channelName, Message m, String namespace) throws NoSuchSubscriberException, RemoteException {
 		ArrayList availableBuses = new ArrayList();

@@ -8,13 +8,13 @@
  * JiniReceivingQConnectorImpl
  *
  */
-package org.jini.projects.zenith.messaging.channels.connectors.transports.jini;
+package org.blarty.zenith.messaging.channels.connectors.transports.jini;
 
 import java.rmi.RemoteException;
 
-import org.jini.projects.zenith.messaging.channels.connectors.ReceivingQConnector;
-import org.jini.projects.zenith.messaging.messages.Message;
-import org.jini.projects.zenith.messaging.system.MessagingListener;
+import org.blarty.zenith.messaging.channels.connectors.ReceivingQConnector;
+import org.blarty.zenith.messaging.messages.Message;
+import org.blarty.zenith.messaging.system.MessagingListener;
 
 
 /**

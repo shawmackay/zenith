@@ -1,16 +1,16 @@
 /**
  * 
  */
-package org.jini.projects.zenith.messaging.test.items.cbr;
+package org.blarty.zenith.messaging.test.items.cbr;
 
-import org.jini.projects.zenith.messaging.components.routers.Filter;
-import org.jini.projects.zenith.messaging.messages.ObjectMessage;
+import org.blarty.zenith.messaging.components.routers.Filter;
+import org.blarty.zenith.messaging.messages.ObjectMessage;
 
 public class CBRFilter1 implements Filter {
         
         int count = 0;
         
-        public boolean check(org.jini.projects.zenith.messaging.messages.Message m) {
+        public boolean check(org.blarty.zenith.messaging.messages.Message m) {
                 if (m instanceof ObjectMessage){
                         count++;
                         return true;

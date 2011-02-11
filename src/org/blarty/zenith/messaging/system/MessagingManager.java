@@ -5,7 +5,7 @@
  * Java - Code Generation - Code and Comments
  */
 
-package org.jini.projects.zenith.messaging.system;
+package org.blarty.zenith.messaging.system;
 
 import java.io.IOException;
 import java.rmi.RemoteException;
@@ -43,15 +43,15 @@ import net.jini.lookup.ServiceItemFilter;
 
 import org.jini.glyph.chalice.DefaultExporterManager;
 import org.jini.glyph.chalice.ExporterManager;
-import org.jini.projects.zenith.messaging.broker.BrokerEvent;
-import org.jini.projects.zenith.messaging.broker.MessageBroker;
-import org.jini.projects.zenith.messaging.channels.MessageChannel;
-import org.jini.projects.zenith.messaging.channels.PointToPointChannel;
-import org.jini.projects.zenith.messaging.channels.PublishSubscribeChannel;
-import org.jini.projects.zenith.messaging.channels.PublishingChannel;
-import org.jini.projects.zenith.messaging.channels.ReceiverChannel;
-import org.jini.projects.zenith.messaging.channels.connectors.PublishingQConnector;
-import org.jini.projects.zenith.messaging.channels.connectors.ReceivingQConnector;
+import org.blarty.zenith.messaging.broker.BrokerEvent;
+import org.blarty.zenith.messaging.broker.MessageBroker;
+import org.blarty.zenith.messaging.channels.MessageChannel;
+import org.blarty.zenith.messaging.channels.PointToPointChannel;
+import org.blarty.zenith.messaging.channels.PublishSubscribeChannel;
+import org.blarty.zenith.messaging.channels.PublishingChannel;
+import org.blarty.zenith.messaging.channels.ReceiverChannel;
+import org.blarty.zenith.messaging.channels.connectors.PublishingQConnector;
+import org.blarty.zenith.messaging.channels.connectors.ReceivingQConnector;
 
 import com.sun.jini.constants.TimeConstants;
 
@@ -84,7 +84,7 @@ public class MessagingManager implements ServiceDiscoveryListener {
 
     String name;
 
-    Logger l = Logger.getLogger("org.jini.projects.zenith.messaging.system");
+    Logger l = Logger.getLogger("org.blarty.zenith.messaging.system");
 
     private int retries = 6;
 

@@ -1,18 +1,18 @@
-package org.jini.projects.zenith.messaging.test.items;
+package org.blarty.zenith.messaging.test.items;
 
 /*
 * PubSubTest.java
 *
 * Created Mon Apr 04 11:34:39 BST 2005
 */
-import org.jini.projects.zenith.messaging.channels.connectors.PublishingQConnector;
-import org.jini.projects.zenith.messaging.channels.connectors.ReceivingQConnector;
-import org.jini.projects.zenith.messaging.messages.Message;
-import org.jini.projects.zenith.messaging.messages.MessageHeader;
-import org.jini.projects.zenith.messaging.messages.StringMessage;
-import org.jini.projects.zenith.messaging.system.ChannelException;
-import org.jini.projects.zenith.messaging.system.MessagingListener;
-import org.jini.projects.zenith.messaging.system.MessagingManager;
+import org.blarty.zenith.messaging.channels.connectors.PublishingQConnector;
+import org.blarty.zenith.messaging.channels.connectors.ReceivingQConnector;
+import org.blarty.zenith.messaging.messages.Message;
+import org.blarty.zenith.messaging.messages.MessageHeader;
+import org.blarty.zenith.messaging.messages.StringMessage;
+import org.blarty.zenith.messaging.system.ChannelException;
+import org.blarty.zenith.messaging.system.MessagingListener;
+import org.blarty.zenith.messaging.system.MessagingManager;
 
 /**
 *
@@ -20,7 +20,7 @@ import org.jini.projects.zenith.messaging.system.MessagingManager;
 *
 */
 
-public class PubSubTest implements org.jini.projects.zenith.messaging.test.TestItem{
+public class PubSubTest implements org.blarty.zenith.messaging.test.TestItem{
 	public void run(final MessagingManager mgr){
 		mgr.createSubscriptionChannel("TestChannel");
 		PublishingQConnector send = null;

@@ -1,4 +1,4 @@
-package org.jini.projects.zenith.messaging.system.store;
+package org.blarty.zenith.messaging.system.store;
 
 import java.io.StringWriter;
 import java.lang.reflect.Array;
@@ -21,9 +21,9 @@ import javax.xml.transform.stream.StreamSource;
 
 import net.jini.id.UuidFactory;
 
-import org.jini.projects.zenith.messaging.messages.EventMessage;
-import org.jini.projects.zenith.messaging.messages.Message;
-import org.jini.projects.zenith.messaging.messages.MessageHeader;
+import org.blarty.zenith.messaging.messages.EventMessage;
+import org.blarty.zenith.messaging.messages.Message;
+import org.blarty.zenith.messaging.messages.MessageHeader;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;

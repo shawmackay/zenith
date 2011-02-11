@@ -1,5 +1,5 @@
 /*
- * apollo2 : org.jini.projects.zenith.messaging.channels.connectors.transports.jini
+ * apollo2 : org.blarty.zenith.messaging.channels.connectors.transports.jini
  * 
  * 
  * RemoteReceivingQAdapter.java
@@ -8,7 +8,7 @@
  * RemoteReceivingQAdapter
  *
  */
-package org.jini.projects.zenith.messaging.channels.connectors.transports.jini;
+package org.blarty.zenith.messaging.channels.connectors.transports.jini;
 
 import java.io.Serializable;
 import java.rmi.Remote;
@@ -23,10 +23,10 @@ import net.jini.jeri.BasicILFactory;
 import net.jini.jeri.BasicJeriExporter;
 import net.jini.jeri.http.HttpServerEndpoint;
 
-import org.jini.projects.zenith.messaging.channels.connectors.ReceivingQConnector;
-import org.jini.projects.zenith.messaging.channels.connectors.transports.jini.constrainable.RemoteMessagingListenerProxy;
-import org.jini.projects.zenith.messaging.messages.Message;
-import org.jini.projects.zenith.messaging.system.MessagingListener;
+import org.blarty.zenith.messaging.channels.connectors.ReceivingQConnector;
+import org.blarty.zenith.messaging.channels.connectors.transports.jini.constrainable.RemoteMessagingListenerProxy;
+import org.blarty.zenith.messaging.messages.Message;
+import org.blarty.zenith.messaging.system.MessagingListener;
 
 
 /**
@@ -62,7 +62,7 @@ public class RemoteReceivingQAdapter implements ReceivingQConnector, Serializabl
 		return channelName;
 	}
 	/*
-	 * @see org.jini.projects.zenith.messaging.channels.connectors.ReceivingQConnector#setListener(org.jini.projects.zenith.messaging.system.MessagingListener)
+	 * @see org.blarty.zenith.messaging.channels.connectors.ReceivingQConnector#setListener(org.blarty.zenith.messaging.system.MessagingListener)
 	 */
 	public void setListener(MessagingListener listener) {
 		// TODO Complete method stub for setListener
@@ -85,7 +85,7 @@ public class RemoteReceivingQAdapter implements ReceivingQConnector, Serializabl
 	}
 
 	/*
-	 * @see org.jini.projects.zenith.messaging.channels.connectors.ReceivingQConnector#receive()
+	 * @see org.blarty.zenith.messaging.channels.connectors.ReceivingQConnector#receive()
 	 */
 	public Message receive() {
 		// TODO Complete method stub for receive
@@ -94,7 +94,7 @@ public class RemoteReceivingQAdapter implements ReceivingQConnector, Serializabl
 	}
 
 	/*
-	 * @see org.jini.projects.zenith.messaging.channels.connectors.ReceivingQConnector#receive(int)
+	 * @see org.blarty.zenith.messaging.channels.connectors.ReceivingQConnector#receive(int)
 	 */
 	public Message receive(int timeout) {
 		// TODO Complete method stub for receive

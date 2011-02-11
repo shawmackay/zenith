@@ -1,8 +1,8 @@
-package org.jini.projects.zenith.messaging.endpoints;
+package org.blarty.zenith.messaging.endpoints;
 
 import net.jini.id.ReferentUuid;
 
-import org.jini.projects.zenith.messaging.messages.Message;
+import org.blarty.zenith.messaging.messages.Message;
 
 
 /**

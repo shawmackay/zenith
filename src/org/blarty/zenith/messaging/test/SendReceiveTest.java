@@ -1,8 +1,8 @@
-package org.jini.projects.zenith.messaging.test;
+package org.blarty.zenith.messaging.test;
 
-import org.jini.projects.zenith.messaging.channels.ReceiverChannel;
-import org.jini.projects.zenith.messaging.system.ChannelException;
-import org.jini.projects.zenith.messaging.system.MessagingManager;
+import org.blarty.zenith.messaging.channels.ReceiverChannel;
+import org.blarty.zenith.messaging.system.ChannelException;
+import org.blarty.zenith.messaging.system.MessagingManager;
 
 public class SendReceiveTest {
 

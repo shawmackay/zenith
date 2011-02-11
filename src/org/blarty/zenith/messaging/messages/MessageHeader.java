@@ -5,7 +5,7 @@
  * Window - Preferences - Java - Code Generation - Code and Comments
  */
 
-package org.jini.projects.zenith.messaging.messages;
+package org.blarty.zenith.messaging.messages;
 
 import java.io.Serializable;
 import java.util.Date;

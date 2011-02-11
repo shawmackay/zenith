@@ -1,4 +1,4 @@
-package org.jini.projects.zenith.messaging.system;
+package org.blarty.zenith.messaging.system;
 
 /**
  * If a messaging component expects a certain type of ChannelAction (for

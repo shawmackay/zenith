@@ -8,9 +8,9 @@
  * DynamicRouter
  *
  */
-package org.jini.projects.zenith.messaging.components.routers;
+package org.blarty.zenith.messaging.components.routers;
 
-import org.jini.projects.zenith.messaging.messages.Message;
+import org.blarty.zenith.messaging.messages.Message;
 
 /**
  * @author calum

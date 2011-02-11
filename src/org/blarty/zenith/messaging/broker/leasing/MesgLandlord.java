@@ -1,12 +1,12 @@
 /*
- * neon : org.jini.projects.neon.messages.server
+ * neon : org.blarty.neon.messages.server
  * 
  * 
  * MesgLandlord.java
  * Created on 24-Jul-2003
  *
  */
-package org.jini.projects.zenith.messaging.broker.leasing;
+package org.blarty.zenith.messaging.broker.leasing;
 
 import java.rmi.Remote;
 import java.rmi.RemoteException;
@@ -44,7 +44,7 @@ import com.sun.jini.landlord.LeasedResource;
  */
 public class MesgLandlord implements ReferentUuid, Landlord, Remote {
 	protected Map leases = Collections.synchronizedMap(new HashMap());
-	private Logger l = Logger.getLogger("org.jini.projects.neon.messages.server.leasing");
+	private Logger l = Logger.getLogger("org.blarty.neon.messages.server.leasing");
 	Uuid myId = null;
 	public static boolean DEBUG =true;
 	protected LeaseFactory myFactory;

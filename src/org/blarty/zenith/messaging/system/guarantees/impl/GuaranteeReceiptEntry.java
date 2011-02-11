@@ -1,5 +1,5 @@
 /*
- * apollo2 : org.jini.projects.zenith.messaging.system.guarantees.impl
+ * apollo2 : org.blarty.zenith.messaging.system.guarantees.impl
  * 
  * 
  * GuaranteeReceiptEntry.java
@@ -8,7 +8,7 @@
  * GuaranteeReceiptEntry
  *
  */
-package org.jini.projects.zenith.messaging.system.guarantees.impl;
+package org.blarty.zenith.messaging.system.guarantees.impl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,7 +16,7 @@ import java.util.List;
 import net.jini.entry.AbstractEntry;
 import net.jini.id.Uuid;
 
-import org.jini.projects.zenith.messaging.messages.Message;
+import org.blarty.zenith.messaging.messages.Message;
 
 /**
  * @author calum

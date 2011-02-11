@@ -1,4 +1,4 @@
-package org.jini.projects.zenith.messaging.components.routers;
+package org.blarty.zenith.messaging.components.routers;
 
 /*
  * XMLSplitter.java
@@ -33,16 +33,16 @@ import javax.xml.xpath.XPathConstants;
 import javax.xml.xpath.XPathExpression;
 import javax.xml.xpath.XPathFactory;
 
-import org.jini.projects.zenith.messaging.channels.PublishingChannel;
-import org.jini.projects.zenith.messaging.components.routers.splitters.SplitPoint;
-import org.jini.projects.zenith.messaging.components.routers.splitters.XPathSplitPoint;
-import org.jini.projects.zenith.messaging.components.routers.splitters.XSLTSplitPoint;
-import org.jini.projects.zenith.messaging.messages.Message;
-import org.jini.projects.zenith.messaging.messages.MessageHeader;
-import org.jini.projects.zenith.messaging.messages.ObjectMessage;
-import org.jini.projects.zenith.messaging.messages.StringMessage;
-import org.jini.projects.zenith.messaging.system.ControllableChannelAction;
-import org.jini.projects.zenith.messaging.system.MessagingManager;
+import org.blarty.zenith.messaging.channels.PublishingChannel;
+import org.blarty.zenith.messaging.components.routers.splitters.SplitPoint;
+import org.blarty.zenith.messaging.components.routers.splitters.XPathSplitPoint;
+import org.blarty.zenith.messaging.components.routers.splitters.XSLTSplitPoint;
+import org.blarty.zenith.messaging.messages.Message;
+import org.blarty.zenith.messaging.messages.MessageHeader;
+import org.blarty.zenith.messaging.messages.ObjectMessage;
+import org.blarty.zenith.messaging.messages.StringMessage;
+import org.blarty.zenith.messaging.system.ControllableChannelAction;
+import org.blarty.zenith.messaging.system.MessagingManager;
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
@@ -58,7 +58,7 @@ import org.xml.sax.SAXException;
 public class XMLSplitter implements ControllableChannelAction {
         List<SplitPoint> splitPaths;
 
-        Logger log = Logger.getLogger("org.jini.projects.zenith.messaging.routers");
+        Logger log = Logger.getLogger("org.blarty.zenith.messaging.routers");
 
       
 

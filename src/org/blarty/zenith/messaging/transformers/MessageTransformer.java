@@ -1,5 +1,5 @@
 /*
- * zenith : org.jini.projects.zenith.messaging.transformers
+ * zenith : org.blarty.zenith.messaging.transformers
  * 
  * 
  * MessageTransformer.java
@@ -8,9 +8,9 @@
  * MessageTransformer
  *
  */
-package org.jini.projects.zenith.messaging.transformers;
+package org.blarty.zenith.messaging.transformers;
 
-import org.jini.projects.zenith.messaging.messages.Message;
+import org.blarty.zenith.messaging.messages.Message;
 
 /**
  * @author calum

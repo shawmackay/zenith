@@ -4,7 +4,7 @@
  * Created on April 8, 2002, 10:56 AM
  */
 
-package org.jini.projects.zenith.resources;
+package org.blarty.zenith.resources;
 
 /**
  * Interface that allows an object to update itself.

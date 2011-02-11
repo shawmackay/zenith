@@ -1,5 +1,5 @@
 /*
- * zenith : org.jini.projects.zenith.messaging.transformers
+ * zenith : org.blarty.zenith.messaging.transformers
  * 
  * 
  * XMLTransformer.java
@@ -9,7 +9,7 @@
  *
  */
 
-package org.jini.projects.zenith.messaging.transformers;
+package org.blarty.zenith.messaging.transformers;
 
 import java.io.PrintWriter;
 import java.io.StringReader;
@@ -24,12 +24,12 @@ import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
 
-import org.jini.projects.zenith.messaging.messages.EventMessage;
-import org.jini.projects.zenith.messaging.messages.ExceptionMessage;
-import org.jini.projects.zenith.messaging.messages.InvocationMessage;
-import org.jini.projects.zenith.messaging.messages.Message;
-import org.jini.projects.zenith.messaging.messages.MessageHeader;
-import org.jini.projects.zenith.messaging.messages.ObjectMessage;
+import org.blarty.zenith.messaging.messages.EventMessage;
+import org.blarty.zenith.messaging.messages.ExceptionMessage;
+import org.blarty.zenith.messaging.messages.InvocationMessage;
+import org.blarty.zenith.messaging.messages.Message;
+import org.blarty.zenith.messaging.messages.MessageHeader;
+import org.blarty.zenith.messaging.messages.ObjectMessage;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 

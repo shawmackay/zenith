@@ -1,7 +1,7 @@
-package org.jini.projects.zenith.bus;
+package org.blarty.zenith.bus;
 
 // Created as: 13-Jan-2003 : enclosing_type :BusToken.java
-// In org.jini.projects.zenith.bus
+// In org.blarty.zenith.bus
 /**
  * Represents a clients interest in a certain topic, obtained using the
  * subscribe() method

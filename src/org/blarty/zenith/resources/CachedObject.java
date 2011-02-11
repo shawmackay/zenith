@@ -4,7 +4,7 @@
  * Created on March 20, 2002, 11:05 AM
  */
 
-package org.jini.projects.zenith.resources;
+package org.blarty.zenith.resources;
 
 import java.util.Calendar;
 

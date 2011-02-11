@@ -9,7 +9,7 @@
  *
  */
 
-package org.jini.projects.zenith.messaging.channels.connectors;
+package org.blarty.zenith.messaging.channels.connectors;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -24,9 +24,9 @@ import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.logging.Logger;
 
-import org.jini.projects.zenith.messaging.messages.Message;
-import org.jini.projects.zenith.messaging.system.MessagingListener;
-import org.jini.projects.zenith.messaging.system.store.StoreSystem;
+import org.blarty.zenith.messaging.messages.Message;
+import org.blarty.zenith.messaging.system.MessagingListener;
+import org.blarty.zenith.messaging.system.store.StoreSystem;
 
 /**
  * Implements an connector to a queue that receives messages asynchronously and
@@ -44,14 +44,14 @@ public class ReceivingQConnectorImpl implements ReceivingQConnector,MessageRecei
 
         Thread t = new Thread(dispatch);
 
-        Logger l = Logger.getLogger("org.jini.projects.zenith.messaging.channels.connectors");
+        Logger l = Logger.getLogger("org.blarty.zenith.messaging.channels.connectors");
 
         static StoreSystem sys;
 
         String channelName;
         static {
                 try {
-                        sys = new StoreSystem(System.getProperty("org.jini.projects.zenith.messaging.system.store.dir"));
+                        sys = new StoreSystem(System.getProperty("org.blarty.zenith.messaging.system.store.dir"));
                 } catch (IOException e) {
 
                         System.out.println("Err: " + e.getMessage());

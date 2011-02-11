@@ -4,7 +4,7 @@
  * Created on April 8, 2002, 10:23 AM
  */
 
-package org.jini.projects.zenith.resources;
+package org.blarty.zenith.resources;
 
 /**
  * Marks that an object can be modified in situ, without requiring the full, deallocate, New all objects, and the reinsert into caches.

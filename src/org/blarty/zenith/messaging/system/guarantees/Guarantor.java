@@ -1,5 +1,5 @@
 /*
- * apollo2 : org.jini.projects.zenith.messaging.system
+ * apollo2 : org.blarty.zenith.messaging.system
  * 
  * 
  * Guarantor.java
@@ -8,9 +8,9 @@
  * Guarantor
  *
  */
-package org.jini.projects.zenith.messaging.system.guarantees;
+package org.blarty.zenith.messaging.system.guarantees;
 
-import org.jini.projects.zenith.messaging.messages.Message;
+import org.blarty.zenith.messaging.messages.Message;
 
 /**
  * @author calum

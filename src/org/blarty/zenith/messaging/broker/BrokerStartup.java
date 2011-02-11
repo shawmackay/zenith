@@ -8,7 +8,7 @@
 * ServiceStartup
 *
 */
-package org.jini.projects.zenith.messaging.broker;
+package org.blarty.zenith.messaging.broker;
 
 import java.io.IOException;
 import java.rmi.RMISecurityManager;
@@ -32,7 +32,7 @@ import net.jini.lookup.LookupCache;
 import net.jini.lookup.ServiceDiscoveryManager;
 import net.jini.lookup.entry.Name;
 
-import org.jini.projects.zenith.messaging.broker.constrainable.MessagingBrokerProxy;
+import org.blarty.zenith.messaging.broker.constrainable.MessagingBrokerProxy;
 
 /**
 * @author calum

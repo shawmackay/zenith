@@ -8,12 +8,12 @@
  * JiniPublishingQConnector
  *
  */
-package org.jini.projects.zenith.messaging.channels.connectors.transports.jini;
+package org.blarty.zenith.messaging.channels.connectors.transports.jini;
 
 import java.rmi.Remote;
 import java.rmi.RemoteException;
 
-import org.jini.projects.zenith.messaging.messages.Message;
+import org.blarty.zenith.messaging.messages.Message;
 
 
 /**

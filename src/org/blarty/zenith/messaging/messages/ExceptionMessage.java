@@ -1,4 +1,4 @@
-package org.jini.projects.zenith.messaging.messages;
+package org.blarty.zenith.messaging.messages;
 
 public class ExceptionMessage implements Message {
 

@@ -8,7 +8,7 @@
  * MessagingServiceProxy
  *
  */
-package org.jini.projects.zenith.messaging.system.constrainable;
+package org.blarty.zenith.messaging.system.constrainable;
 
 import java.io.Serializable;
 import java.rmi.RemoteException;
@@ -20,12 +20,12 @@ import net.jini.id.ReferentUuid;
 import net.jini.id.ReferentUuids;
 import net.jini.id.Uuid;
 
-import org.jini.projects.zenith.messaging.channels.MessageChannel;
-import org.jini.projects.zenith.messaging.channels.connectors.PublishingQConnector;
-import org.jini.projects.zenith.messaging.channels.connectors.ReceivingQConnector;
-import org.jini.projects.zenith.messaging.system.ChannelException;
-import org.jini.projects.zenith.messaging.system.MessagingListener;
-import org.jini.projects.zenith.messaging.system.MessagingService;
+import org.blarty.zenith.messaging.channels.MessageChannel;
+import org.blarty.zenith.messaging.channels.connectors.PublishingQConnector;
+import org.blarty.zenith.messaging.channels.connectors.ReceivingQConnector;
+import org.blarty.zenith.messaging.system.ChannelException;
+import org.blarty.zenith.messaging.system.MessagingListener;
+import org.blarty.zenith.messaging.system.MessagingService;
 
 
 /**
@@ -33,7 +33,7 @@ import org.jini.projects.zenith.messaging.system.MessagingService;
  */
 public class MessagingServiceProxy implements MessagingService, ReferentUuid, Serializable {
      private static final long serialVersionUID = 2L;
-	 	static Logger log = Logger.getLogger("org.jini.projects.zenith");
+	 	static Logger log = Logger.getLogger("org.blarty.zenith");
         final MessagingService backend;
         final Uuid proxyID;
 

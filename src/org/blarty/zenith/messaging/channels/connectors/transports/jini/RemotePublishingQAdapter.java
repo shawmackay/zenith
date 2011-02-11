@@ -1,5 +1,5 @@
 /*
- * apollo2 : org.jini.projects.zenith.messaging.channels.connectors.transports.jini
+ * apollo2 : org.blarty.zenith.messaging.channels.connectors.transports.jini
  * 
  * 
  * RemotePublishingQAdapter.java
@@ -8,13 +8,13 @@
  * RemotePublishingQAdapter
  *
  */
-package org.jini.projects.zenith.messaging.channels.connectors.transports.jini;
+package org.blarty.zenith.messaging.channels.connectors.transports.jini;
 
 import java.io.Serializable;
 import java.rmi.RemoteException;
 
-import org.jini.projects.zenith.messaging.channels.connectors.PublishingQConnector;
-import org.jini.projects.zenith.messaging.messages.Message;
+import org.blarty.zenith.messaging.channels.connectors.PublishingQConnector;
+import org.blarty.zenith.messaging.messages.Message;
 
 
 /**

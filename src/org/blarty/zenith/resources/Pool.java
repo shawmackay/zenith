@@ -4,7 +4,7 @@
  * Created on March 25, 2002, 3:01 PM
  */
 
-package org.jini.projects.zenith.resources;
+package org.blarty.zenith.resources;
 
 /**
  * Basic Pool interface, all Pool objects must either extend or implement this interface

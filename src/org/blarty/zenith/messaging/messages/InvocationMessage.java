@@ -9,7 +9,7 @@
  *
  */
 
-package org.jini.projects.zenith.messaging.messages;
+package org.blarty.zenith.messaging.messages;
 
 
 /**

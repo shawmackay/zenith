@@ -1,5 +1,5 @@
 /*
- * zenith : org.jini.projects.zenith.messaging.broker
+ * zenith : org.blarty.zenith.messaging.broker
  * 
  * 
  * ZenithServiceInfo.java
@@ -8,7 +8,7 @@
  * ZenithServiceInfo
  *
  */
-package org.jini.projects.zenith.messaging.broker;
+package org.blarty.zenith.messaging.broker;
 
 import java.awt.Image;
 

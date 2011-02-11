@@ -1,11 +1,11 @@
-package org.jini.projects.zenith.messaging.test;
+package org.blarty.zenith.messaging.test;
 
 /*
 * TestItem.java
 *
 * Created Mon Apr 04 11:33:36 BST 2005
 */
-import org.jini.projects.zenith.messaging.system.MessagingManager;
+import org.blarty.zenith.messaging.system.MessagingManager;
 /**
 *
 * @author  calum

@@ -1,25 +1,25 @@
-package org.jini.projects.zenith.messaging.test.items;
+package org.blarty.zenith.messaging.test.items;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.jini.projects.zenith.messaging.channels.ReceiverChannel;
-import org.jini.projects.zenith.messaging.channels.connectors.PublishingQConnector;
-import org.jini.projects.zenith.messaging.components.ControllableComponent;
-import org.jini.projects.zenith.messaging.components.DefaultControllableComponent;
-import org.jini.projects.zenith.messaging.components.routers.XMLSplitter;
-import org.jini.projects.zenith.messaging.components.routers.splitters.SplitPoint;
-import org.jini.projects.zenith.messaging.components.routers.splitters.XPathSplitPoint;
-import org.jini.projects.zenith.messaging.components.routers.splitters.XSLTSplitPoint;
-import org.jini.projects.zenith.messaging.messages.Message;
-import org.jini.projects.zenith.messaging.messages.MessageHeader;
-import org.jini.projects.zenith.messaging.messages.ObjectMessage;
-import org.jini.projects.zenith.messaging.messages.StringMessage;
-import org.jini.projects.zenith.messaging.system.MessagingListener;
-import org.jini.projects.zenith.messaging.system.MessagingManager;
-import org.jini.projects.zenith.messaging.test.TestItem;
+import org.blarty.zenith.messaging.channels.ReceiverChannel;
+import org.blarty.zenith.messaging.channels.connectors.PublishingQConnector;
+import org.blarty.zenith.messaging.components.ControllableComponent;
+import org.blarty.zenith.messaging.components.DefaultControllableComponent;
+import org.blarty.zenith.messaging.components.routers.XMLSplitter;
+import org.blarty.zenith.messaging.components.routers.splitters.SplitPoint;
+import org.blarty.zenith.messaging.components.routers.splitters.XPathSplitPoint;
+import org.blarty.zenith.messaging.components.routers.splitters.XSLTSplitPoint;
+import org.blarty.zenith.messaging.messages.Message;
+import org.blarty.zenith.messaging.messages.MessageHeader;
+import org.blarty.zenith.messaging.messages.ObjectMessage;
+import org.blarty.zenith.messaging.messages.StringMessage;
+import org.blarty.zenith.messaging.system.MessagingListener;
+import org.blarty.zenith.messaging.system.MessagingManager;
+import org.blarty.zenith.messaging.test.TestItem;
 /**
 *
 * @author  calum

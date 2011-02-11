@@ -5,13 +5,13 @@
  * Java - Code Generation - Code and Comments
  */
 
-package org.jini.projects.zenith.messaging.test;
+package org.blarty.zenith.messaging.test;
 
 import java.rmi.RMISecurityManager;
 
 import net.jini.config.ConfigurationProvider;
 
-import org.jini.projects.zenith.messaging.system.MessagingManager;
+import org.blarty.zenith.messaging.system.MessagingManager;
 
 /**
  * @author Calum
@@ -29,7 +29,7 @@ public class ChannelTest {
                         MessagingManager.createManager("default", ConfigurationProvider.getInstance(new String[]{"conf/messagingMgr.config"}));
                         mgr = MessagingManager.getManager();
                         System.setProperty("java.security.policy", "d:\\java\\policy.all");
-                        System.setProperty("org.jini.projects.zenith.messaging.system.store.dir", "zenithlogs");
+                        System.setProperty("org.blarty.zenith.messaging.system.store.dir", "zenithlogs");
                         System.setSecurityManager(new RMISecurityManager());
                         if (args.length == 0) {
                                 System.err.println("Please specify a Test to run");
@@ -37,7 +37,7 @@ public class ChannelTest {
                         } else {
                                 System.out.println("Mgr: " + mgr);
                                 try {
-                                        Class cl = Class.forName("org.jini.projects.zenith.messaging.test.items." + args[0] + "Test");
+                                        Class cl = Class.forName("org.blarty.zenith.messaging.test.items." + args[0] + "Test");
                                         TestItem item = (TestItem) cl.newInstance();
                                         item.run(mgr);
                                         System.out.println("Waiting 10 secs");

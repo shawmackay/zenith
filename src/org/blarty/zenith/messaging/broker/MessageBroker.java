@@ -1,5 +1,5 @@
 /*
- * apollo2 : org.jini.projects.zenith.messaging.system
+ * apollo2 : org.blarty.zenith.messaging.system
  * 
  * 
  * MessagingBroker.java
@@ -8,7 +8,7 @@
  * MessagingBroker
  *
  */
-package org.jini.projects.zenith.messaging.broker;
+package org.blarty.zenith.messaging.broker;
 
 import java.rmi.Remote;
 import java.rmi.RemoteException;

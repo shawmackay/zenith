@@ -4,7 +4,7 @@
  * Created on May 7, 2002, 11:07 AM
  */
 
-package org.jini.projects.zenith.resources;
+package org.blarty.zenith.resources;
 
 import java.io.FileWriter;
 import java.util.ArrayList;

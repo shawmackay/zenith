@@ -1,4 +1,4 @@
-package org.jini.projects.zenith.messaging.components.routers;
+package org.blarty.zenith.messaging.components.routers;
 
 import java.io.Serializable;
 

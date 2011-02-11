@@ -8,7 +8,7 @@
  * RemoteMessagingListenerProxy
  *
  */
-package org.jini.projects.zenith.messaging.channels.connectors.transports.jini.constrainable;
+package org.blarty.zenith.messaging.channels.connectors.transports.jini.constrainable;
 
 import java.io.Serializable;
 import java.rmi.RemoteException;
@@ -22,8 +22,8 @@ import net.jini.core.event.UnknownEventException;
 import net.jini.id.ReferentUuids;
 import net.jini.id.Uuid;
 
-import org.jini.projects.zenith.messaging.messages.Message;
-import org.jini.projects.zenith.messaging.system.MessagingListener;
+import org.blarty.zenith.messaging.messages.Message;
+import org.blarty.zenith.messaging.system.MessagingListener;
 
 
 /**

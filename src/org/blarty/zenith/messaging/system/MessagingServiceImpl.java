@@ -9,7 +9,7 @@
  *
  */
 
-package org.jini.projects.zenith.messaging.system;
+package org.blarty.zenith.messaging.system;
 
 import java.rmi.Remote;
 import java.rmi.RemoteException;
@@ -19,16 +19,16 @@ import net.jini.id.UuidFactory;
 
 import org.jini.glyph.chalice.DefaultExporterManager;
 import org.jini.glyph.chalice.ExporterManager;
-import org.jini.projects.zenith.messaging.channels.MessageChannel;
-import org.jini.projects.zenith.messaging.channels.ReceiverChannel;
-import org.jini.projects.zenith.messaging.channels.connectors.PublishingQConnector;
-import org.jini.projects.zenith.messaging.channels.connectors.ReceivingQConnector;
-import org.jini.projects.zenith.messaging.channels.connectors.transports.jini.JiniPublishingQConnectorImpl;
-import org.jini.projects.zenith.messaging.channels.connectors.transports.jini.JiniReceivingQConnectorImpl;
-import org.jini.projects.zenith.messaging.channels.connectors.transports.jini.RemotePublishingQAdapter;
-import org.jini.projects.zenith.messaging.channels.connectors.transports.jini.RemotePublishingQConnector;
-import org.jini.projects.zenith.messaging.channels.connectors.transports.jini.RemoteReceivingQAdapter;
-import org.jini.projects.zenith.messaging.channels.connectors.transports.jini.RemoteReceivingQConnector;
+import org.blarty.zenith.messaging.channels.MessageChannel;
+import org.blarty.zenith.messaging.channels.ReceiverChannel;
+import org.blarty.zenith.messaging.channels.connectors.PublishingQConnector;
+import org.blarty.zenith.messaging.channels.connectors.ReceivingQConnector;
+import org.blarty.zenith.messaging.channels.connectors.transports.jini.JiniPublishingQConnectorImpl;
+import org.blarty.zenith.messaging.channels.connectors.transports.jini.JiniReceivingQConnectorImpl;
+import org.blarty.zenith.messaging.channels.connectors.transports.jini.RemotePublishingQAdapter;
+import org.blarty.zenith.messaging.channels.connectors.transports.jini.RemotePublishingQConnector;
+import org.blarty.zenith.messaging.channels.connectors.transports.jini.RemoteReceivingQAdapter;
+import org.blarty.zenith.messaging.channels.connectors.transports.jini.RemoteReceivingQConnector;
 
 
 
@@ -39,7 +39,7 @@ public class MessagingServiceImpl implements MessagingService{
 	MessagingManager mgr = MessagingManager.getManager();
 	
 	ExporterManager emgr = DefaultExporterManager.getManager("messaging","msgexportmgr.config");
-	Logger log = Logger.getLogger("org.jini.projects.zenith.messaging.system");
+	Logger log = Logger.getLogger("org.blarty.zenith.messaging.system");
     
 	/*
 	 * @see apollo.messaging.system.MessagingService#createChannel(java.lang.String)

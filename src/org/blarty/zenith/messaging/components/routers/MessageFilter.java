@@ -1,5 +1,5 @@
 /*
- * zenith : org.jini.projects.zenith.messaging.routers
+ * zenith : org.blarty.zenith.messaging.routers
  * 
  * 
  * MessageFilter.java
@@ -9,17 +9,17 @@
  *
  */
 
-package org.jini.projects.zenith.messaging.components.routers;
+package org.blarty.zenith.messaging.components.routers;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import org.jini.projects.zenith.messaging.channels.PublishingChannel;
-import org.jini.projects.zenith.messaging.channels.ReceiverChannel;
-import org.jini.projects.zenith.messaging.channels.connectors.ReceivingQConnector;
-import org.jini.projects.zenith.messaging.messages.Message;
-import org.jini.projects.zenith.messaging.system.ChannelException;
-import org.jini.projects.zenith.messaging.system.MessagingManager;
+import org.blarty.zenith.messaging.channels.PublishingChannel;
+import org.blarty.zenith.messaging.channels.ReceiverChannel;
+import org.blarty.zenith.messaging.channels.connectors.ReceivingQConnector;
+import org.blarty.zenith.messaging.messages.Message;
+import org.blarty.zenith.messaging.system.ChannelException;
+import org.blarty.zenith.messaging.system.MessagingManager;
 
 /**
  * @author calum
@@ -28,7 +28,7 @@ public class MessageFilter {
 	String inputChannelName;
 	Filter theFilter;
 	String outputChannelName;
-	private Logger log = Logger.getLogger("org.jini.projects.zenith.messaging.routers");
+	private Logger log = Logger.getLogger("org.blarty.zenith.messaging.routers");
 
 	public MessageFilter(ReceiverChannel inputChannel, PublishingChannel outputChannel, Filter theFilter) {
 		try {

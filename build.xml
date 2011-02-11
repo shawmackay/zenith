@@ -260,7 +260,7 @@
 
 	<target name="javadoc" depends="init">
 		<mkdir dir="${javadoc}" />
-		<javadoc destdir="${javadoc}" packagenames="org.jini.projects.zenith.*" additionalparam="-breakiterator">
+		<javadoc destdir="${javadoc}" packagenames="org.blarty.zenith.*" additionalparam="-breakiterator">
 			<sourcepath>
 				<pathelement location="${src}" />
 			</sourcepath>
@@ -285,11 +285,11 @@
         </echo>
 
 		<echo file="${dist}/startbroker.sh">
-		java -classpath ./lib/zenith.jar:${jinilib}/jsk-platform.jar:${java.libs.loc}/serviceui-1.1a.jar:${jinilib}/jini-core.jar:${jinilib}/jini-ext.jar:${jinilib}/sun-util.jar:. -Djava.security.policy=conf/policy.all -Djava.rmi.server.codebase=${dl-url} org.jini.projects.zenith.messaging.broker.BrokerStartup $1
+		java -classpath ./lib/zenith.jar:${jinilib}/jsk-platform.jar:${java.libs.loc}/serviceui-1.1a.jar:${jinilib}/jini-core.jar:${jinilib}/jini-ext.jar:${jinilib}/sun-util.jar:. -Djava.security.policy=conf/policy.all -Djava.rmi.server.codebase=${dl-url} org.blarty.zenith.messaging.broker.BrokerStartup $1
 		</echo>
 
 		<echo file="${dist}/startrouter.sh">
-				java -classpath ./lib/zenith.jar:${jinilib}/jsk-platform.jar:${java.libs.loc}/serviceui-1.1a.jar:${jinilib}/jini-core.jar:${jinilib}/jini-ext.jar:${jinilib}/sun-util.jar:. -Djava.security.policy=conf/policy.all -Djava.rmi.server.codebase=${dl-url} org.jini.projects.zenith.router.RouterStartup $1
+				java -classpath ./lib/zenith.jar:${jinilib}/jsk-platform.jar:${java.libs.loc}/serviceui-1.1a.jar:${jinilib}/jini-core.jar:${jinilib}/jini-ext.jar:${jinilib}/sun-util.jar:. -Djava.security.policy=conf/policy.all -Djava.rmi.server.codebase=${dl-url} org.blarty.zenith.router.RouterStartup $1
 				</echo>
 
 		<echo file="${dist}/readme.txt">

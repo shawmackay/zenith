@@ -1,28 +1,28 @@
-package org.jini.projects.zenith.messaging.test.items;
+package org.blarty.zenith.messaging.test.items;
 
 import net.jini.id.UuidFactory;
 
-import org.jini.projects.zenith.messaging.channels.InvalidMessageChannel;
-import org.jini.projects.zenith.messaging.channels.PublishingChannel;
-import org.jini.projects.zenith.messaging.components.DefaultControllableComponent;
-import org.jini.projects.zenith.messaging.components.routers.ChannelFilterLink;
-import org.jini.projects.zenith.messaging.components.routers.ContentBasedRouterAction;
-import org.jini.projects.zenith.messaging.components.routers.Filter;
-import org.jini.projects.zenith.messaging.messages.EventMessage;
-import org.jini.projects.zenith.messaging.messages.ExceptionMessage;
-import org.jini.projects.zenith.messaging.messages.MessageHeader;
-import org.jini.projects.zenith.messaging.messages.ObjectMessage;
-import org.jini.projects.zenith.messaging.messages.StringMessage;
-import org.jini.projects.zenith.messaging.system.ChannelException;
-import org.jini.projects.zenith.messaging.system.MessagingManager;
-import org.jini.projects.zenith.messaging.system.UnsupportedActionException;
-import org.jini.projects.zenith.messaging.test.TestItem;
-import org.jini.projects.zenith.messaging.test.items.cbr.CBRFilter1;
-import org.jini.projects.zenith.messaging.test.items.cbr.CBRFilter2;
-import org.jini.projects.zenith.messaging.test.items.cbr.CBRFilter3;
-import org.jini.projects.zenith.messaging.test.items.cbr.CBRListener1;
-import org.jini.projects.zenith.messaging.test.items.cbr.CBRListener2;
-import org.jini.projects.zenith.messaging.test.items.cbr.CBRListener3;
+import org.blarty.zenith.messaging.channels.InvalidMessageChannel;
+import org.blarty.zenith.messaging.channels.PublishingChannel;
+import org.blarty.zenith.messaging.components.DefaultControllableComponent;
+import org.blarty.zenith.messaging.components.routers.ChannelFilterLink;
+import org.blarty.zenith.messaging.components.routers.ContentBasedRouterAction;
+import org.blarty.zenith.messaging.components.routers.Filter;
+import org.blarty.zenith.messaging.messages.EventMessage;
+import org.blarty.zenith.messaging.messages.ExceptionMessage;
+import org.blarty.zenith.messaging.messages.MessageHeader;
+import org.blarty.zenith.messaging.messages.ObjectMessage;
+import org.blarty.zenith.messaging.messages.StringMessage;
+import org.blarty.zenith.messaging.system.ChannelException;
+import org.blarty.zenith.messaging.system.MessagingManager;
+import org.blarty.zenith.messaging.system.UnsupportedActionException;
+import org.blarty.zenith.messaging.test.TestItem;
+import org.blarty.zenith.messaging.test.items.cbr.CBRFilter1;
+import org.blarty.zenith.messaging.test.items.cbr.CBRFilter2;
+import org.blarty.zenith.messaging.test.items.cbr.CBRFilter3;
+import org.blarty.zenith.messaging.test.items.cbr.CBRListener1;
+import org.blarty.zenith.messaging.test.items.cbr.CBRListener2;
+import org.blarty.zenith.messaging.test.items.cbr.CBRListener3;
 
 import com.sun.jndi.cosnaming.ExceptionMapper;
 

@@ -1,21 +1,21 @@
 /*
- * Apollo : org.jini.projects.zenith.bus
+ * Apollo : org.blarty.zenith.bus
  * 
  * 
  * BusJoint.java
  * Created on 29-Jul-2003
  *
  */
-package org.jini.projects.zenith.bus;
+package org.blarty.zenith.bus;
 
 import java.rmi.RemoteException;
 
 import net.jini.id.Uuid;
 import net.jini.id.UuidFactory;
 
-import org.jini.projects.zenith.exceptions.NoSuchSubscriberException;
-import org.jini.projects.zenith.messaging.messages.Message;
-import org.jini.projects.zenith.router.RouterJoint;
+import org.blarty.zenith.exceptions.NoSuchSubscriberException;
+import org.blarty.zenith.messaging.messages.Message;
+import org.blarty.zenith.router.RouterJoint;
 
 
 /**
@@ -40,7 +40,7 @@ public class BusJoint implements RouterJoint{
 	
 
 	/* (non-Javadoc)
-	 * @see org.jini.projects.zenith.router.RouterJoint#hostsSubscriber(net.jini.id.Uuid)
+	 * @see org.blarty.zenith.router.RouterJoint#hostsSubscriber(net.jini.id.Uuid)
 	 */
 	public boolean hostsSubscriber(Uuid subscriberIdentity) throws RemoteException {
 		
@@ -48,7 +48,7 @@ public class BusJoint implements RouterJoint{
 	}
 
 	/* (non-Javadoc)
-	 * @see org.jini.projects.zenith.router.RouterJoint#hostsTopic(java.lang.String)
+	 * @see org.blarty.zenith.router.RouterJoint#hostsTopic(java.lang.String)
 	 */
 	public boolean hostsTopic(String topic) throws RemoteException {
 		
@@ -74,7 +74,7 @@ public class BusJoint implements RouterJoint{
 	}
 
 	/* (non-Javadoc)
-	 * @see org.jini.projects.zenith.router.RouterJoint#getID()
+	 * @see org.blarty.zenith.router.RouterJoint#getID()
 	 */
 	public Uuid getID() throws RemoteException{
 		// TODO Complete method stub for getID
@@ -84,7 +84,7 @@ public class BusJoint implements RouterJoint{
 	}
 
 	/* (non-Javadoc)
-	 * @see org.jini.projects.zenith.router.RouterJoint#getNameSpace()
+	 * @see org.blarty.zenith.router.RouterJoint#getNameSpace()
 	 */
 	public String getNameSpace() throws RemoteException {		
 		return this.namespace;

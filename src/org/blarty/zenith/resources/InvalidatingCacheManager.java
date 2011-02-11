@@ -4,7 +4,7 @@
  * Created on April 8, 2002, 10:17 AM
  */
 
-package org.jini.projects.zenith.resources;
+package org.blarty.zenith.resources;
 
 /**
  * Similar to FlashableCacheManager, this will modify the contents of a cache on demand. However

@@ -9,7 +9,7 @@
  *
  */
 
-package org.jini.projects.zenith.messaging.system.client;
+package org.blarty.zenith.messaging.system.client;
 
 import java.io.IOException;
 import java.rmi.RMISecurityManager;
@@ -21,14 +21,14 @@ import net.jini.discovery.DiscoveryEvent;
 import net.jini.discovery.DiscoveryListener;
 import net.jini.discovery.LookupDiscoveryManager;
 
-import org.jini.projects.zenith.messaging.channels.connectors.PublishingQConnector;
-import org.jini.projects.zenith.messaging.channels.connectors.ReceivingQConnector;
-import org.jini.projects.zenith.messaging.messages.Message;
-import org.jini.projects.zenith.messaging.messages.MessageHeader;
-import org.jini.projects.zenith.messaging.messages.StringMessage;
-import org.jini.projects.zenith.messaging.system.ChannelException;
-import org.jini.projects.zenith.messaging.system.MessagingListener;
-import org.jini.projects.zenith.messaging.system.MessagingService;
+import org.blarty.zenith.messaging.channels.connectors.PublishingQConnector;
+import org.blarty.zenith.messaging.channels.connectors.ReceivingQConnector;
+import org.blarty.zenith.messaging.messages.Message;
+import org.blarty.zenith.messaging.messages.MessageHeader;
+import org.blarty.zenith.messaging.messages.StringMessage;
+import org.blarty.zenith.messaging.system.ChannelException;
+import org.blarty.zenith.messaging.system.MessagingListener;
+import org.blarty.zenith.messaging.system.MessagingService;
 
 
 /**
@@ -65,7 +65,7 @@ public class MessagingServiceClient implements DiscoveryListener {
 			System.out.println("Getting receiver");
 			rqc = mySvc.registerOnChannel("MyReturn",null);
 			rqc.setListener(new MessagingListener() {
-				/* @see org.jini.projects.zenith.messaging.system.MessagingListener#messageReceived(org.jini.projects.zenith.messaging.messages.Message)
+				/* @see org.blarty.zenith.messaging.system.MessagingListener#messageReceived(org.blarty.zenith.messaging.messages.Message)
 				 */
 				public void messageReceived(Message m) {
 					// TODO Complete method stub for messageReceived

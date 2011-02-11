@@ -5,13 +5,13 @@
  * Window - Preferences - Java - Code Generation - Code and Comments
  */
 
-package org.jini.projects.zenith.messaging.endpoints;
+package org.blarty.zenith.messaging.endpoints;
 
 import java.util.ArrayList;
 
-import org.jini.projects.zenith.messaging.channels.ReceiverChannel;
-import org.jini.projects.zenith.messaging.messages.Message;
-import org.jini.projects.zenith.messaging.system.MessagingListener;
+import org.blarty.zenith.messaging.channels.ReceiverChannel;
+import org.blarty.zenith.messaging.messages.Message;
+import org.blarty.zenith.messaging.system.MessagingListener;
 
 
 /**
