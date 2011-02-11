@@ -1,0 +1,311 @@
+
+<project name="zenith" default="dist" basedir=".">
+
+
+
+	<target name="init">
+		<property file="build.properties"/>
+		<echo message="Continuing init....." />
+
+
+		<mkdir dir="${build}" />
+		<mkdir dir="${build.jvm14}" />
+		<mkdir dir="${build.jvm14}/dl" />
+		<mkdir dir="${build.jvm14}/dl/msg" />
+		<mkdir dir="${build.jvm14}/dl/broker" />
+		<mkdir dir="${build.jvm14}/dl/router" />
+		<mkdir dir="${build.jvm14}/intf" />
+		<mkdir dir="${classes}" />
+		<mkdir dir="${dist}" />
+		<mkdir dir="${backup}" />
+		<mkdir dir="${conf}" />
+		<mkdir dir="${logs}" />
+		<mkdir dir="${javadoc}" />
+		<mkdir dir="${bin}" />
+		<mkdir dir="${lib}"/>
+		<mkdir dir="${dl.dir}"/>
+		<path id="project.class.path">
+			<fileset dir="${jini.home}/lib">
+				<include name="jini*.jar" />
+				<include name="sun-util.jar" />
+				<include name="jsk-platform.jar" />
+			</fileset>
+			<!-- Include specific project directories -->
+			<fileset dir="${java.libs.loc}">
+				<include name="serviceui-1.1.jar" />
+			</fileset>
+
+			<pathelement location="${classes}" />
+			<pathelement location="${exportMgr.loc}"/>
+		</path>
+
+		<!-- Create the build directory structure used by compile -->
+	</target>
+
+
+	<target name="compile" depends="init">
+		<patternset id="intfsources">
+			<include name="org/jini/projects/zenith/exceptions/*.java"/>
+			<include name="org/jini/projects/zenith/exceptions/*.java"/>
+			<include name="org/jini/projects/zenith/message/*.java"/>
+			<include name="org/jini/projects/zenith/messaging/messages/*.java"/>			
+			<include name="org/jini/projects/zenith/endpoints/*.java"/>
+			<include name="org/jini/projects/zenith/bus/*.java"/>
+			<include name="org/jini/projects/zenith/router/RouterService.java"/>
+			<include name="org/jini/projects/zenith/router/RouterJoint.java"/>
+				<include name="org/jini/projects/zenith/messaging/system/MessagingManager.java"/>
+			<include name="org/jini/projects/zenith/messaging/system/MessagingListener.java"/>
+			<include name="org/jini/projects/zenith/messaging/channels/MessageChannel.java"/>
+			<include name="org/jini/projects/zenith/messaging/channels/ReceiverChannel.java"/>
+			<include name="org/jini/projects/zenith/messaging/system/ChannelException.java"/>
+			<include name="org/jini/projects/zenith/messaging/channels/connectors/ReceivingQConnector.java"/>
+			<include name="org/jini/projects/zenith/messaging/channels/connectors/PublishingQConnector.java"/>			
+			<include name="org/jini/projects/zenith/messaging/channels/*.java"/>			
+		</patternset>
+
+		<patternset id="brokersvc.dl.sources">
+
+			<include name="org/jini/projects/zenith/exceptions/*.java" />
+			<include name="org/jini/projects/zenith/messaging/broker/MessageBroker.java" />
+			<include name="org/jini/projects/zenith/messaging/broker/BrokerEvent.java" />
+			<include name="org/jini/projects/zenith/messaging/broker/MessageBrokerServiceType.java" />
+			<include name="org/jini/projects/zenith/messaging/broker/constrainable/*.java"/>
+			<include name="org/jini/projects/zenith/messaging/broker/leasing/LeasedMesgRegistration.java" />
+		</patternset>
+
+		<patternset id="routersvc.dl.sources">
+			<include name="org/jini/projects/zenith/router/constrainable/*.java" />
+			<include name="org/jini/projects/zenith/exceptions/*.java" />
+			<include name="org/jini/projects/zenith/bus/Bus.java" />
+			<include name="org/jini/projects/zenith/router/RouterJoint.java" />
+			<include name="org/jini/projects/zenith/router/RouterService.java" />
+			<include name="org/jini/projects/zenith/messaging/messages/Message.java" />
+		</patternset>
+
+		<patternset id="msgsvc.dl.sources">
+			<include name="org/jini/projects/zenith/messaging/system/MessagingService.java" />
+			<include name="org/jini/projects/zenith/messaging/system/MessagingServiceType.java" />
+			<include name="org/jini/projects/zenith/messaging/system/mesgsvc.png" />
+			<include name="org/jini/projects/zenith/messaging/messages/SimpleResponse.java" />
+			<include name="org/jini/projects/zenith/messaging/system/ChannelException.java" />
+			<include name="org/jini/projects/zenith/messaging/channels/connectors/transports/jini/RemoteMessagingListener.java" />
+			<include name="org/jini/projects/zenith/messaging/messages/ObjectMessage.java" />
+			<include name="org/jini/projects/zenith/messaging/messages/Sequence.java" />
+			<include name="org/jini/projects/zenith/messaging/system/constrainable/MessagingServiceProxy.java" />
+			<include name="org/jini/projects/zenith/messaging/channels/connectors/transports/jini/RemoteReceivingQAdapter.java" />
+			<include name="org/jini/projects/zenith/messaging/channels/connectors/transports/jini/RemoteReceivingQConnector.java" />
+			<include name="org/jini/projects/zenith/messaging/broker/MessagingBroker.java" />
+			<include name="org/jini/projects/zenith/messaging/messages/KVPair.java" />
+			<include name="org/jini/projects/zenith/messaging/channels/connectors/MessageReceiver.java" />
+			<include name="org/jini/projects/zenith/messaging/broker/BrokerEvent.java" />
+			<include name="org/jini/projects/zenith/messaging/messages/MessageHeader.java" />
+			<include name="org/jini/projects/zenith/messaging/channels/connectors/PublishingQConnector.java" />
+			<include name="org/jini/projects/zenith/messaging/system/MessagingListener.java" />
+			<include name="org/jini/projects/zenith/messaging/channels/connectors/transports/jini/constrainable/RemoteMessagingListenerProxy.java" />
+			<include name="org/jini/projects/zenith/messaging/channels/connectors/transports/jini/constrainable/PublishingQConnectorProxy.java" />
+			<include name="org/jini/projects/zenith/messaging/channels/connectors/transports/jini/constrainable/ReceivingQConnectorProxy.java" />
+			<include name="org/jini/projects/zenith/messaging/messages/InvocationMessage.java" />
+			<include name="org/jini/projects/zenith/messaging/channels/connectors/ReceivingQConnector.java" />
+			<include name="org/jini/projects/zenith/messaging/channels/MessageChannel.java" />
+			<include name="org/jini/projects/zenith/messaging/messages/Message.java" />
+			<include name="org/jini/projects/zenith/messaging/system/MessageIDFactory.java" />
+			<include name="org/jini/projects/zenith/messaging/channels/connectors/transports/jini/RemotePublishingQConnector.java" />
+			<include name="org/jini/projects/zenith/messaging/channels/connectors/transports/jini/RemotePublishingQAdapter.java" />
+			<include name="org/jini/projects/zenith/messaging/messages/StringMessage.java" />
+			<include name="org/jini/projects/zenith/messaging/channels/connectors/transports/jini/JiniPublishingQConnectorImpl.java" />
+			<include name="org/jini/projects/zenith/messaging/broker/constrainable/MessagingBrokerProxy.java" />
+			<include name="org/jini/projects/zenith/messaging/broker/leasing/LeasedMesgRegistration.java" />
+		</patternset>
+
+		<!-- Compile the java code from ${src} into ${build} -->
+
+		<echo message="Compiling core J2SE 5.0...." />
+		<javac debug="true" deprecation="true" destdir="${classes}" srcdir="${src}">
+			<classpath refid="project.class.path" />
+		</javac>
+
+				<echo message="Compiling 1.4 Interface classes"/>
+		<javac debug="true" deprecation="true" destdir="${build.jvm14}/intf" srcdir="${src}" source="1.4" target="1.4">
+			<classpath refid="project.class.path" />
+			<patternset refid="intfsources" />
+		</javac>
+		<!-- Do copy of brokerpng  						<include name="org/jini/projects/zenith/messaging/broker/zenithbroker.png" /> -->
+		<echo message="Compiling 1.4 Messaging Service DL classes" />
+		<javac debug="true" deprecation="true" destdir="${build.jvm14}/dl/msg" srcdir="${src}" source="1.4" target="1.4">
+			<classpath refid="project.class.path" />
+			<patternset refid="msgsvc.dl.sources" />
+		</javac>
+
+		<echo message="Compiling 1.4 Broker Service DL classes" />
+		<javac debug="true" deprecation="true" destdir="${build.jvm14}/dl/broker" srcdir="${src}" source="1.4" target="1.4">
+			<classpath refid="project.class.path" />
+			<patternset refid="brokersvc.dl.sources" />
+		</javac>
+
+		<echo message="Compiling 1.4 Router Service DL classes" />
+		<javac debug="true" deprecation="true" destdir="${build.jvm14}/dl/router" srcdir="${src}" source="1.4" target="1.4">
+			<classpath refid="project.class.path" />
+			<patternset refid="routersvc.dl.sources" />
+		</javac>
+
+
+	</target>
+
+	<target name="jar" depends="compile">
+		<!-- Build the main service -->
+		<delete file="${jar}" failonerror="no"/>
+		<delete file="${dl-jar}" failonerror="no"/>
+		<jar basedir="${classes}" compress="true" jarfile="${jar}">
+			<exclude name="**/*.java" />
+			<exclude name="**/*.form" />
+			<exclude name="*.jar" />
+		</jar>
+		<mkdir dir="${dist}/tmp" />
+		<unjar src="${jini.home}/lib-dl/sdm-dl.jar" dest="${dist}/tmp" />
+		<unjar src="${jini.home}/lib/jini-ext.jar" dest="${dist}/tmp" />
+
+		<copy todir="${classes}/org/jini/projects/zenith/messaging/broker/">
+			<fileset dir="${src}/org/jini/projects/zenith/messaging/broker/" includes="**/*.png" />
+		</copy>
+
+		<copy todir="${build.jvm14}/dl/broker/org/jini/projects/zenith/messaging/broker/">
+			<fileset dir="${src}/org/jini/projects/zenith/messaging/broker/" includes="**/*.png" />
+		</copy>
+
+
+		<copy todir="${classes}/org/jini/projects/zenith/messaging/system/">
+			<fileset dir="${src}/org/jini/projects/zenith/messaging/system/" includes="**/*.png" />
+		</copy>
+		
+			<copy todir="${build.jvm14}/dl/msg/org/jini/projects/zenith/messaging/system/">
+				<fileset dir="${src}/org/jini/projects/zenith/messaging/system/" includes="**/*.png" />
+			</copy>
+		
+		<jar compress="true" jarfile="${intfjar}">
+			<fileset dir="${build.jvm14}/intf"/>
+		</jar>
+
+		
+		<jar compress="true" jarfile="${mesgsvc-jar}">
+			<fileset dir="${build.jvm14}/dl/msg" includes="org/jini/projects/zenith/messaging/system/MessagingService.class" />
+			<fileset dir="${build.jvm14}/dl/msg" includes="org/jini/projects/zenith/messaging/system/MessagingServiceType.class" />
+			<fileset dir="${build.jvm14}/dl/msg" includes="org/jini/projects/zenith/messaging/system/mesgsvc.png" />
+			<fileset dir="${build.jvm14}/dl/msg" includes="org/jini/projects/zenith/messaging/messages/SimpleResponse.class" />
+			<fileset dir="${build.jvm14}/dl/msg" includes="org/jini/projects/zenith/messaging/system/ChannelException.class" />
+			<fileset dir="${build.jvm14}/dl/msg" includes="org/jini/projects/zenith/messaging/channels/connectors/transports/jini/RemoteMessagingListener.class" />
+			<fileset dir="${build.jvm14}/dl/msg" includes="org/jini/projects/zenith/messaging/messages/ObjectMessage.class" />
+			<fileset dir="${build.jvm14}/dl/msg" includes="org/jini/projects/zenith/messaging/messages/Sequence.class" />
+			<fileset dir="${build.jvm14}/dl/msg" includes="org/jini/projects/zenith/messaging/system/constrainable/MessagingServiceProxy$ConstrainableProxy.class" />
+			<fileset dir="${build.jvm14}/dl/msg" includes="org/jini/projects/zenith/messaging/system/constrainable/MessagingServiceProxy.class" />
+			<fileset dir="${build.jvm14}/dl/msg" includes="org/jini/projects/zenith/messaging/channels/connectors/transports/jini/RemoteReceivingQAdapter$ListenerWrapper.class" />
+			<fileset dir="${build.jvm14}/dl/msg" includes="org/jini/projects/zenith/messaging/channels/connectors/transports/jini/RemoteReceivingQAdapter.class" />
+			<fileset dir="${build.jvm14}/dl/msg" includes="org/jini/projects/zenith/messaging/channels/connectors/transports/jini/RemoteReceivingQConnector.class" />
+			<fileset dir="${build.jvm14}/dl/msg" includes="org/jini/projects/zenith/messaging/broker/MessagingBroker.class" />
+			<fileset dir="${build.jvm14}/dl/msg" includes="org/jini/projects/zenith/messaging/messages/KVPair.class" />
+			<fileset dir="${build.jvm14}/dl/msg" includes="org/jini/projects/zenith/messaging/channels/connectors/MessageReceiver.class" />
+			<fileset dir="${build.jvm14}/dl/msg" includes="org/jini/projects/zenith/messaging/broker/BrokerEvent.class" />
+			<fileset dir="${build.jvm14}/dl/msg" includes="org/jini/projects/zenith/messaging/messages/MessageHeader.class" />
+			<fileset dir="${build.jvm14}/dl/msg" includes="org/jini/projects/zenith/messaging/channels/connectors/PublishingQConnector.class" />
+			<fileset dir="${build.jvm14}/dl/msg" includes="org/jini/projects/zenith/messaging/system/MessagingListener.class" />
+			<fileset dir="${build.jvm14}/dl/msg" includes="org/jini/projects/zenith/messaging/channels/connectors/transports/jini/constrainable/RemoteMessagingListenerProxy$ConstrainableProxy.class" />
+			<fileset dir="${build.jvm14}/dl/msg" includes="org/jini/projects/zenith/messaging/channels/connectors/transports/jini/constrainable/RemoteMessagingListenerProxy.class" />
+			<fileset dir="${build.jvm14}/dl/msg" includes="org/jini/projects/zenith/messaging/channels/connectors/transports/jini/constrainable/PublishingQConnectorProxy$ConstrainableProxy.class" />
+			<fileset dir="${build.jvm14}/dl/msg" includes="org/jini/projects/zenith/messaging/channels/connectors/transports/jini/constrainable/PublishingQConnectorProxy.class" />
+			<fileset dir="${build.jvm14}/dl/msg" includes="org/jini/projects/zenith/messaging/channels/connectors/transports/jini/constrainable/ReceivingQConnectorProxy$ConstrainableProxy.class" />
+			<fileset dir="${build.jvm14}/dl/msg" includes="org/jini/projects/zenith/messaging/channels/connectors/transports/jini/constrainable/ReceivingQConnectorProxy.class" />
+			<fileset dir="${build.jvm14}/dl/msg" includes="org/jini/projects/zenith/messaging/messages/InvocationMessage.class" />
+			<fileset dir="${build.jvm14}/dl/msg" includes="org/jini/projects/zenith/messaging/channels/connectors/ReceivingQConnector.class" />
+			<fileset dir="${build.jvm14}/dl/msg" includes="org/jini/projects/zenith/messaging/channels/MessageChannel.class" />
+			<fileset dir="${build.jvm14}/dl/msg" includes="org/jini/projects/zenith/messaging/messages/Message.class" />
+			<fileset dir="${build.jvm14}/dl/msg" includes="org/jini/projects/zenith/messaging/system/MessageIDFactory.class" />
+			<fileset dir="${build.jvm14}/dl/msg" includes="org/jini/projects/zenith/messaging/channels/connectors/transports/jini/RemotePublishingQConnector.class" />
+			<fileset dir="${build.jvm14}/dl/msg" includes="org/jini/projects/zenith/messaging/channels/connectors/transports/jini/RemotePublishingQAdapter.class" />
+			<fileset dir="${build.jvm14}/dl/msg" includes="org/jini/projects/zenith/messaging/messages/StringMessage.class" />
+			<fileset dir="${build.jvm14}/dl/msg" includes="org/jini/projects/zenith/messaging/channels/connectors/transports/jini/JiniPublishingQConnectorImpl.class" />
+			<fileset dir="${build.jvm14}/dl/msg" includes="org/jini/projects/zenith/messaging/broker/constrainable/MessagingBrokerProxy$ConstrainableMessagingBrokerProxy.class" />
+			<fileset dir="${build.jvm14}/dl/msg" includes="org/jini/projects/zenith/messaging/broker/constrainable/MessagingBrokerProxy.class" />
+			<fileset dir="${build.jvm14}/dl/msg" includes="org/jini/projects/zenith/messaging/broker/leasing/LeasedMesgRegistration.class" />
+		</jar>
+		<jar compress="true" jarfile="${routerdl-jar}">
+			<fileset dir="${build.jvm14}/dl/router" includes="org/jini/projects/zenith/router/constrainable/*.class" />
+			<fileset dir="${build.jvm14}/dl/router" includes="org/jini/projects/zenith/exceptions/*.class" />
+			<fileset dir="${build.jvm14}/dl/router" includes="org/jini/projects/zenith/bus/Bus.class" />
+			<fileset dir="${build.jvm14}/dl/router" includes="org/jini/projects/zenith/router/RouterJoint.class" />
+			<fileset dir="${build.jvm14}/dl/router" includes="org/jini/projects/zenith/router/RouterService.class" />
+			<fileset dir="${build.jvm14}/dl/router" includes="org/jini/projects/zenith/messaging/messages/Message.class" />
+			<fileset dir="${dist}/tmp" includes="net/jini/lookup/*Stub.class" />
+			<fileset dir="${dist}/tmp" includes="net/jini/lookup/entry/*.class" />
+			<fileset dir="${dist}/tmp" includes="net/jini/entry/*.class" />
+		</jar>
+		<jar compress="true" jarfile="${brokerdl-jar}">
+			<fileset dir="${build.jvm14}/dl/broker" includes="org/jini/projects/zenith/messaging/broker/constrainable/*.class" />
+			<fileset dir="${build.jvm14}/dl/broker" includes="org/jini/projects/zenith/exceptions/*.class" />
+			<fileset dir="${build.jvm14}/dl/broker" includes="org/jini/projects/zenith/messaging/broker/MessageBroker.class" />
+			<fileset dir="${build.jvm14}/dl/broker" includes="org/jini/projects/zenith/messaging/broker/BrokerEvent.class" />
+			<fileset dir="${build.jvm14}/dl/broker" includes="org/jini/projects/zenith/messaging/broker/MessageBrokerServiceType.class" />
+			<fileset dir="${build.jvm14}/dl/broker" includes="org/jini/projects/zenith/messaging/broker/zenithbroker.png" />
+			<fileset dir="${build.jvm14}/dl/broker" includes="org/jini/projects/zenith/messaging/broker/leasing/LeasedMesgRegistration.class" />
+			<fileset dir="${dist}/tmp" includes="net/jini/lookup/*Stub.class" />
+			<fileset dir="${dist}/tmp" includes="net/jini/lookup/entry/*.class" />
+			<fileset dir="${dist}/tmp" includes="net/jini/entry/*.class" />
+		</jar>
+		<jar compress="true" jarfile="${jointdl-jar}">
+			<fileset dir="${classes}" includes="org/jini/projects/zenith/router/constrainable/*.class" />
+			<fileset dir="${classes}" includes="org/jini/projects/zenith/exceptions/*.class" />
+			<fileset dir="${classes}" includes="org/jini/projects/zenith/router/RouterJoint.class" />
+		</jar>
+		<delete dir="${dist}/tmp" />
+		<echo message="Jar complete" />
+	</target>
+
+	<target name="javadoc" depends="init">
+		<mkdir dir="${javadoc}" />
+		<javadoc destdir="${javadoc}" packagenames="org.jini.projects.zenith.*" additionalparam="-breakiterator">
+			<sourcepath>
+				<pathelement location="${src}" />
+			</sourcepath>
+			<classpath refid="project.class.path" />
+			<link href="http://nts4_007.countrywide-assured.co.uk:8001/Dept/it/Architecture/Java/JDKDocs/docs/api" />
+			<link href="http://nts4_007.countrywide-assured.co.uk:8001/Dept/it/Architecture/Java/jini2_0/docs/api" />
+		</javadoc>
+	</target>
+
+	<target depends="init, compile, jar" name="dist">
+		<mkdir dir="${dist.root}" />
+		<mkdir dir="${dist}" />
+		<mkdir dir="${bin}" />
+		<mkdir dir="${backup}" />
+		<mkdir dir="${conf}" />
+		<mkdir dir="${logs}" />
+
+		<echo file="${dist}/conf/policy.all">
+        grant {
+		    permission java.security.AllPermission "", "";
+		};        
+        </echo>
+
+		<echo file="${dist}/startbroker.sh">
+		java -classpath ./lib/zenith.jar:${jinilib}/jsk-platform.jar:${java.libs.loc}/serviceui-1.1a.jar:${jinilib}/jini-core.jar:${jinilib}/jini-ext.jar:${jinilib}/sun-util.jar:. -Djava.security.policy=conf/policy.all -Djava.rmi.server.codebase=${dl-url} org.jini.projects.zenith.messaging.broker.BrokerStartup $1
+		</echo>
+
+		<echo file="${dist}/startrouter.sh">
+				java -classpath ./lib/zenith.jar:${jinilib}/jsk-platform.jar:${java.libs.loc}/serviceui-1.1a.jar:${jinilib}/jini-core.jar:${jinilib}/jini-ext.jar:${jinilib}/sun-util.jar:. -Djava.security.policy=conf/policy.all -Djava.rmi.server.codebase=${dl-url} org.jini.projects.zenith.router.RouterStartup $1
+				</echo>
+
+		<echo file="${dist}/readme.txt">
+		</echo>
+		<echo file="${dist}/install.txt">
+		</echo>
+		<echo file="${dist}/changelog.txt">
+		</echo>
+	</target>
+
+	<target depends="init" name="clean">
+		<!-- Delete the ${build} and ${dist} directory trees -->
+		<delete dir="${build}" />
+		<delete dir="${build.jvm14}" />
+		<delete dir="${dist}" />
+		<delete dir="${classes}" />
+	</target>
+</project>
+

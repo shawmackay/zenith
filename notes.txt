@@ -1,0 +1,5 @@
+* Messaging Components
+		Can these things can be split out into actions, with a few parent components
+		This means we can separate much of the routing and actioning into three places
+		The base component, the channel dispatcher, the channel action
+					--see RecipientListAction

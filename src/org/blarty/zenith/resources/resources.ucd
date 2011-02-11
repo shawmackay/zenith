@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" id="e0052sts3scountrywideassuredcoukcalumApollo0" metadata="nsuml-1.4" initialized="true" showWireOptions="1" scrolledY="1863">
+  <children xsi:type="editmodel:ClassEditModel" location="473,2660" size="140,124" id="e0052sts3scountrywideassuredcoukcalumApollo379" runTimeClassModel="e0052sts3scountrywideassuredcoukcalumApollo380;e0052sts3scountrywideassuredcoukcalumApollo385;e0052sts3scountrywideassuredcoukcalumApollo382;e0052sts3scountrywideassuredcoukcalumApollo388;e0052sts3scountrywideassuredcoukcalumApollo381">
+    <children xsi:type="editmodel:CompartmentEditModel" size="85,36">
+      <children xsi:type="editmodel:AttributeEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo381"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo380"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="110,36">
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo385"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo388"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="50,2896" size="145,32" id="e0052sts3scountrywideassuredcoukcalumApollo549" runTimeClassModel="e0052sts3scountrywideassuredcoukcalumApollo554;e0052sts3scountrywideassuredcoukcalumApollo551;e0052sts3scountrywideassuredcoukcalumApollo559;e0052sts3scountrywideassuredcoukcalumApollo550;e0052sts3scountrywideassuredcoukcalumApollo552;e0052sts3scountrywideassuredcoukcalumApollo556">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="593,2252" size="203,214" id="e0052sts3scountrywideassuredcoukcalumApollo152" runTimeClassModel="e0052sts3scountrywideassuredcoukcalumApollo768;e0052sts3scountrywideassuredcoukcalumApollo746;e0052sts3scountrywideassuredcoukcalumApollo770;e0052sts3scountrywideassuredcoukcalumApollo760;e0052sts3scountrywideassuredcoukcalumApollo764;e0052sts3scountrywideassuredcoukcalumApollo745;e0052sts3scountrywideassuredcoukcalumApollo750;e0052sts3scountrywideassuredcoukcalumApollo754;e0052sts3scountrywideassuredcoukcalumApollo749;e0052sts3scountrywideassuredcoukcalumApollo772;e0052sts3scountrywideassuredcoukcalumApollo744;e0052sts3scountrywideassuredcoukcalumApollo748;e0052sts3scountrywideassuredcoukcalumApollo766;e0052sts3scountrywideassuredcoukcalumApollo758;e0052sts3scountrywideassuredcoukcalumApollo762;e0052sts3scountrywideassuredcoukcalumApollo751;e0052sts3scountrywideassuredcoukcalumApollo747">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="180,162">
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo754"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo758"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo772"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo760"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo762"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo766"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo764"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo770"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo768"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="663,2660" size="156,70" id="e0052sts3scountrywideassuredcoukcalumApollo842" runTimeClassModel="e0052sts3scountrywideassuredcoukcalumApollo843">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="125,18">
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo843"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="50,2660" size="183,186" id="e0052sts3scountrywideassuredcoukcalumApollo992" runTimeClassModel="e0052sts3scountrywideassuredcoukcalumApollo1003;e0052sts3scountrywideassuredcoukcalumApollo1021;e0052sts3scountrywideassuredcoukcalumApollo995;e0052sts3scountrywideassuredcoukcalumApollo1007;e0052sts3scountrywideassuredcoukcalumApollo1001;e0052sts3scountrywideassuredcoukcalumApollo1016;e0052sts3scountrywideassuredcoukcalumApollo1011;e0052sts3scountrywideassuredcoukcalumApollo999;e0052sts3scountrywideassuredcoukcalumApollo996;e0052sts3scountrywideassuredcoukcalumApollo997;e0052sts3scountrywideassuredcoukcalumApollo993;e0052sts3scountrywideassuredcoukcalumApollo1009;e0052sts3scountrywideassuredcoukcalumApollo1005;e0052sts3scountrywideassuredcoukcalumApollo1025;e0052sts3scountrywideassuredcoukcalumApollo994;e0052sts3scountrywideassuredcoukcalumApollo1018">
+    <children xsi:type="editmodel:CompartmentEditModel" size="115,18">
+      <children xsi:type="editmodel:AttributeEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo1005"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="144,72">
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo1009"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo1011"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo1016"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo1018"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="110,34">
+      <children xsi:type="editmodel:ClassEditModel" size="110,32" id="e0052sts3scountrywideassuredcoukcalumApollo1025" runTimeClassModel="e0052sts3scountrywideassuredcoukcalumApollo1030;e0052sts3scountrywideassuredcoukcalumApollo1026;e0052sts3scountrywideassuredcoukcalumApollo1028">
+        <children xsi:type="editmodel:CompartmentEditModel"/>
+        <children xsi:type="editmodel:CompartmentEditModel"/>
+        <children xsi:type="editmodel:CompartmentEditModel"/>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference"/>
+      </children>
+    </children>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="50,2252" size="228,358" id="e0052sts3scountrywideassuredcoukcalumApollo6" runTimeClassModel="e0052sts3scountrywideassuredcoukcalumApollo918;e0052sts3scountrywideassuredcoukcalumApollo907;e0052sts3scountrywideassuredcoukcalumApollo886;e0052sts3scountrywideassuredcoukcalumApollo860;e0052sts3scountrywideassuredcoukcalumApollo864;e0052sts3scountrywideassuredcoukcalumApollo869;e0052sts3scountrywideassuredcoukcalumApollo848;e0052sts3scountrywideassuredcoukcalumApollo850;e0052sts3scountrywideassuredcoukcalumApollo880;e0052sts3scountrywideassuredcoukcalumApollo854;e0052sts3scountrywideassuredcoukcalumApollo900;e0052sts3scountrywideassuredcoukcalumApollo857;e0052sts3scountrywideassuredcoukcalumApollo846;e0052sts3scountrywideassuredcoukcalumApollo904;e0052sts3scountrywideassuredcoukcalumApollo889;e0052sts3scountrywideassuredcoukcalumApollo909;e0052sts3scountrywideassuredcoukcalumApollo873;e0052sts3scountrywideassuredcoukcalumApollo877;e0052sts3scountrywideassuredcoukcalumApollo855;e0052sts3scountrywideassuredcoukcalumApollo912;e0052sts3scountrywideassuredcoukcalumApollo896;e0052sts3scountrywideassuredcoukcalumApollo852;e0052sts3scountrywideassuredcoukcalumApollo892">
+    <children xsi:type="editmodel:CompartmentEditModel" size="107,18">
+      <children xsi:type="editmodel:AttributeEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo848"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="183,288">
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo855"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo864"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo860"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo857"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo873"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo877"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo880"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo869"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo900"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo896"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo904"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo909"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo889"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo886"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo907"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo892"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="328,2252" size="215,340" id="e0052sts3scountrywideassuredcoukcalumApollo9" runTimeClassModel="e0052sts3scountrywideassuredcoukcalumApollo337;e0052sts3scountrywideassuredcoukcalumApollo314;e0052sts3scountrywideassuredcoukcalumApollo331;e0052sts3scountrywideassuredcoukcalumApollo285;e0052sts3scountrywideassuredcoukcalumApollo333;e0052sts3scountrywideassuredcoukcalumApollo300;e0052sts3scountrywideassuredcoukcalumApollo318;e0052sts3scountrywideassuredcoukcalumApollo287;e0052sts3scountrywideassuredcoukcalumApollo304;e0052sts3scountrywideassuredcoukcalumApollo324;e0052sts3scountrywideassuredcoukcalumApollo286;e0052sts3scountrywideassuredcoukcalumApollo309;e0052sts3scountrywideassuredcoukcalumApollo289;e0052sts3scountrywideassuredcoukcalumApollo283;e0052sts3scountrywideassuredcoukcalumApollo321;e0052sts3scountrywideassuredcoukcalumApollo292;e0052sts3scountrywideassuredcoukcalumApollo296;e0052sts3scountrywideassuredcoukcalumApollo328">
+    <children xsi:type="editmodel:CompartmentEditModel" size="165,36">
+      <children xsi:type="editmodel:AttributeEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo286"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo285"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="172,252">
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo289"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo287"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo296"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo304"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo300"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo292"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo324"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo328"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo318"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo321"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo314"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo309"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo337"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo331"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="472,1682" size="221,520" id="e0052sts3scountrywideassuredcoukcalumApollo1" runTimeClassModel="e0052sts3scountrywideassuredcoukcalumApollo18;e0052sts3scountrywideassuredcoukcalumApollo51;e0052sts3scountrywideassuredcoukcalumApollo117;e0052sts3scountrywideassuredcoukcalumApollo62;e0052sts3scountrywideassuredcoukcalumApollo73;e0052sts3scountrywideassuredcoukcalumApollo104;e0052sts3scountrywideassuredcoukcalumApollo31;e0052sts3scountrywideassuredcoukcalumApollo97;e0052sts3scountrywideassuredcoukcalumApollo110;e0052sts3scountrywideassuredcoukcalumApollo47;e0052sts3scountrywideassuredcoukcalumApollo4;e0052sts3scountrywideassuredcoukcalumApollo69;e0052sts3scountrywideassuredcoukcalumApollo13;e0052sts3scountrywideassuredcoukcalumApollo83;e0052sts3scountrywideassuredcoukcalumApollo58;e0052sts3scountrywideassuredcoukcalumApollo92;e0052sts3scountrywideassuredcoukcalumApollo21;e0052sts3scountrywideassuredcoukcalumApollo66;e0052sts3scountrywideassuredcoukcalumApollo77;e0052sts3scountrywideassuredcoukcalumApollo5;e0052sts3scountrywideassuredcoukcalumApollo26;e0052sts3scountrywideassuredcoukcalumApollo2;e0052sts3scountrywideassuredcoukcalumApollo15;e0052sts3scountrywideassuredcoukcalumApollo37;e0052sts3scountrywideassuredcoukcalumApollo8;e0052sts3scountrywideassuredcoukcalumApollo107;e0052sts3scountrywideassuredcoukcalumApollo11;e0052sts3scountrywideassuredcoukcalumApollo114;e0052sts3scountrywideassuredcoukcalumApollo119;e0052sts3scountrywideassuredcoukcalumApollo87;e0052sts3scountrywideassuredcoukcalumApollo43">
+    <children xsi:type="editmodel:CompartmentEditModel" size="198,36">
+      <children xsi:type="editmodel:AttributeEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo5"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo8"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="152,432">
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo31"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo21"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo26"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo51"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo43"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo47"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo37"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo77"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo73"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo83"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo87"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo114"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo110"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo107"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo104"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo97"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo92"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo66"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo62"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo58"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo15"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo18"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo117"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo69"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="283,2660" size="140,142" id="e0052sts3scountrywideassuredcoukcalumApollo164" runTimeClassModel="e0052sts3scountrywideassuredcoukcalumApollo980;e0052sts3scountrywideassuredcoukcalumApollo964;e0052sts3scountrywideassuredcoukcalumApollo978;e0052sts3scountrywideassuredcoukcalumApollo967;e0052sts3scountrywideassuredcoukcalumApollo965;e0052sts3scountrywideassuredcoukcalumApollo982;e0052sts3scountrywideassuredcoukcalumApollo976;e0052sts3scountrywideassuredcoukcalumApollo969;e0052sts3scountrywideassuredcoukcalumApollo968;e0052sts3scountrywideassuredcoukcalumApollo972;e0052sts3scountrywideassuredcoukcalumApollo966">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="117,90">
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo972"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo976"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo982"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo978"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo980"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" location="432,231" size="103,86" targetConnections="//@children.22/@sourceConnections.1" id="e0052sts3scountrywideassuredcoukcalumApollo562" runTimeClassModel="e0052sts3scountrywideassuredcoukcalumApollo564">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="75,18">
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo564"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="50,1854" size="151,124" id="e0052sts3scountrywideassuredcoukcalumApollo48" runTimeClassModel="e0052sts3scountrywideassuredcoukcalumApollo801;e0052sts3scountrywideassuredcoukcalumApollo790;e0052sts3scountrywideassuredcoukcalumApollo803;e0052sts3scountrywideassuredcoukcalumApollo799;e0052sts3scountrywideassuredcoukcalumApollo792;e0052sts3scountrywideassuredcoukcalumApollo794;e0052sts3scountrywideassuredcoukcalumApollo787">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="120,72">
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo794"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo799"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo803"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo801"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.11/@sourceConnections.0" connectionRouterKind="GeneralizationManhattan" source="//@children.10" target="//@children.12" targetEnd="//@children.10/@sourceConnections.0/@children.1" sourceEnd="//@children.10/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="75,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="62,122" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="231,1854" size="191,178" id="e0052sts3scountrywideassuredcoukcalumApollo265" runTimeClassModel="e0052sts3scountrywideassuredcoukcalumApollo832;e0052sts3scountrywideassuredcoukcalumApollo826;e0052sts3scountrywideassuredcoukcalumApollo830;e0052sts3scountrywideassuredcoukcalumApollo819;e0052sts3scountrywideassuredcoukcalumApollo828;e0052sts3scountrywideassuredcoukcalumApollo817;e0052sts3scountrywideassuredcoukcalumApollo809;e0052sts3scountrywideassuredcoukcalumApollo834;e0052sts3scountrywideassuredcoukcalumApollo815;e0052sts3scountrywideassuredcoukcalumApollo811;e0052sts3scountrywideassuredcoukcalumApollo813">
+    <children xsi:type="editmodel:CompartmentEditModel" size="85,18">
+      <children xsi:type="editmodel:AttributeEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo813"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="153,108">
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo819"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo832"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo826"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo830"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo834"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo828"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo266" connectionRouterKind="Manual" source="//@children.11" target="//@children.10/@sourceConnections.0" targetEnd="//@children.11/@sourceConnections.0/@children.1" sourceEnd="//@children.11/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="95,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo267" connectionRouterKind="Manual" source="//@children.11" target="//@children.13" targetEnd="//@children.11/@sourceConnections.1/@children.1" sourceEnd="//@children.11/@sourceConnections.1/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" location="110,1682" size="124,122" targetConnections="//@children.10/@sourceConnections.0" id="e0052sts3scountrywideassuredcoukcalumApollo39" runTimeClassModel="e0052sts3scountrywideassuredcoukcalumApollo784;e0052sts3scountrywideassuredcoukcalumApollo780;e0052sts3scountrywideassuredcoukcalumApollo782">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="101,54">
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo782"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo784"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo780"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" location="264,1682" size="124,86" targetConnections="//@children.11/@sourceConnections.1" id="e0052sts3scountrywideassuredcoukcalumApollo261" runTimeClassModel="e0052sts3scountrywideassuredcoukcalumApollo989">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="101,18">
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo989"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" location="633,646" size="165,248" targetConnections="//@children.15/@sourceConnections.0" id="e0052sts3scountrywideassuredcoukcalumApollo569" runTimeClassModel="e0052sts3scountrywideassuredcoukcalumApollo584;e0052sts3scountrywideassuredcoukcalumApollo591;e0052sts3scountrywideassuredcoukcalumApollo586;e0052sts3scountrywideassuredcoukcalumApollo571;e0052sts3scountrywideassuredcoukcalumApollo582;e0052sts3scountrywideassuredcoukcalumApollo579;e0052sts3scountrywideassuredcoukcalumApollo577;e0052sts3scountrywideassuredcoukcalumApollo575;e0052sts3scountrywideassuredcoukcalumApollo573;e0052sts3scountrywideassuredcoukcalumApollo589">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="142,180">
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo589"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo591"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo579"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo586"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo584"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo575"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo577"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo571"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo573"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo582"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="592,944" size="247,492" id="e0052sts3scountrywideassuredcoukcalumApollo596" runTimeClassModel="e0052sts3scountrywideassuredcoukcalumApollo651;e0052sts3scountrywideassuredcoukcalumApollo599;e0052sts3scountrywideassuredcoukcalumApollo641;e0052sts3scountrywideassuredcoukcalumApollo609;e0052sts3scountrywideassuredcoukcalumApollo637;e0052sts3scountrywideassuredcoukcalumApollo620;e0052sts3scountrywideassuredcoukcalumApollo600;e0052sts3scountrywideassuredcoukcalumApollo635;e0052sts3scountrywideassuredcoukcalumApollo607;e0052sts3scountrywideassuredcoukcalumApollo622;e0052sts3scountrywideassuredcoukcalumApollo611;e0052sts3scountrywideassuredcoukcalumApollo633;e0052sts3scountrywideassuredcoukcalumApollo639;e0052sts3scountrywideassuredcoukcalumApollo603;e0052sts3scountrywideassuredcoukcalumApollo628;e0052sts3scountrywideassuredcoukcalumApollo598;e0052sts3scountrywideassuredcoukcalumApollo649;e0052sts3scountrywideassuredcoukcalumApollo597;e0052sts3scountrywideassuredcoukcalumApollo631;e0052sts3scountrywideassuredcoukcalumApollo605;e0052sts3scountrywideassuredcoukcalumApollo616;e0052sts3scountrywideassuredcoukcalumApollo643;e0052sts3scountrywideassuredcoukcalumApollo610;e0052sts3scountrywideassuredcoukcalumApollo625;e0052sts3scountrywideassuredcoukcalumApollo647;e0052sts3scountrywideassuredcoukcalumApollo604">
+    <children xsi:type="editmodel:CompartmentEditModel" size="199,144">
+      <children xsi:type="editmodel:AttributeEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo597"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo603"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo599"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo605"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo600"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo604"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo609"/>
+      <children xsi:type="editmodel:AttributeEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo610"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="142,252">
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo611"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo616"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo647"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo651"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo649"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo622"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo628"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo631"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo620"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo633"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo635"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo637"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo639"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo641"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="224,34">
+      <children xsi:type="editmodel:ClassEditModel" size="224,32" id="e0052sts3scountrywideassuredcoukcalumApollo598" runTimeClassModel="e0052sts3scountrywideassuredcoukcalumApollo661;e0052sts3scountrywideassuredcoukcalumApollo653;e0052sts3scountrywideassuredcoukcalumApollo655;e0052sts3scountrywideassuredcoukcalumApollo659;e0052sts3scountrywideassuredcoukcalumApollo657">
+        <children xsi:type="editmodel:CompartmentEditModel"/>
+        <children xsi:type="editmodel:CompartmentEditModel"/>
+        <children xsi:type="editmodel:CompartmentEditModel"/>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference"/>
+      </children>
+    </children>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" connectionRouterKind="Manual" source="//@children.15" target="//@children.14" targetEnd="//@children.15/@sourceConnections.0/@children.1" sourceEnd="//@children.15/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,-1" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="106,1418" size="211,214" id="e0052sts3scountrywideassuredcoukcalumApollo375" runTimeClassModel="e0052sts3scountrywideassuredcoukcalumApollo477;e0052sts3scountrywideassuredcoukcalumApollo483;e0052sts3scountrywideassuredcoukcalumApollo489;e0052sts3scountrywideassuredcoukcalumApollo474;e0052sts3scountrywideassuredcoukcalumApollo494;e0052sts3scountrywideassuredcoukcalumApollo475;e0052sts3scountrywideassuredcoukcalumApollo486;e0052sts3scountrywideassuredcoukcalumApollo491;e0052sts3scountrywideassuredcoukcalumApollo480;e0052sts3scountrywideassuredcoukcalumApollo497">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="166,162">
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo477"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo475"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo483"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo489"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo491"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo497"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo486"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo480"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo494"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo376" connectionRouterKind="Manual" source="//@children.16" target="//@children.17" targetEnd="//@children.16/@sourceConnections.0/@children.1" sourceEnd="//@children.16/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,-1" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="132,1118" size="160,250" targetConnections="//@children.16/@sourceConnections.0" id="e0052sts3scountrywideassuredcoukcalumApollo374" runTimeClassModel="e0052sts3scountrywideassuredcoukcalumApollo456;e0052sts3scountrywideassuredcoukcalumApollo445;e0052sts3scountrywideassuredcoukcalumApollo440;e0052sts3scountrywideassuredcoukcalumApollo453;e0052sts3scountrywideassuredcoukcalumApollo426;e0052sts3scountrywideassuredcoukcalumApollo432;e0052sts3scountrywideassuredcoukcalumApollo437;e0052sts3scountrywideassuredcoukcalumApollo434;e0052sts3scountrywideassuredcoukcalumApollo443;e0052sts3scountrywideassuredcoukcalumApollo450;e0052sts3scountrywideassuredcoukcalumApollo458;e0052sts3scountrywideassuredcoukcalumApollo433;e0052sts3scountrywideassuredcoukcalumApollo447;e0052sts3scountrywideassuredcoukcalumApollo435;e0052sts3scountrywideassuredcoukcalumApollo460;e0052sts3scountrywideassuredcoukcalumApollo428;e0052sts3scountrywideassuredcoukcalumApollo430">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="128,198">
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo437"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo435"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo440"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo443"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo445"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo447"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo456"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo458"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo460"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo453"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo450"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" connectionRouterKind="Manual" source="//@children.17" target="//@children.19" targetEnd="//@children.17/@sourceConnections.0/@children.1" sourceEnd="//@children.17/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="160,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo1280" connectionRouterKind="Manual" source="//@children.17" target="//@children.18" targetEnd="//@children.17/@sourceConnections.1/@children.1" sourceEnd="//@children.17/@sourceConnections.1/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,-1" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" location="227,890" size="144,104" targetConnections="//@children.17/@sourceConnections.1" id="e0052sts3scountrywideassuredcoukcalumApollo505" runTimeClassModel="e0052sts3scountrywideassuredcoukcalumApollo510;e0052sts3scountrywideassuredcoukcalumApollo507">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="81,36">
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo507"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo510"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.19/@sourceConnections.0 //@children.20/@sourceConnections.0" connectionRouterKind="GeneralizationManhattan" source="//@children.18" target="//@children.21" targetEnd="//@children.18/@sourceConnections.0/@children.1" sourceEnd="//@children.18/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="72,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="70,176" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" location="37,876" size="148,104" targetConnections="//@children.17/@sourceConnections.0" id="e0052sts3scountrywideassuredcoukcalumApollo418" runTimeClassModel="e0052sts3scountrywideassuredcoukcalumApollo422;e0052sts3scountrywideassuredcoukcalumApollo420">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="78,36">
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo420"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo422"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" connectionRouterKind="Manual" source="//@children.19" target="//@children.18/@sourceConnections.0" targetEnd="//@children.19/@sourceConnections.0/@children.1" sourceEnd="//@children.19/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="74,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="420,927" size="140,196" id="e0052sts3scountrywideassuredcoukcalumApollo349" runTimeClassModel="e0052sts3scountrywideassuredcoukcalumApollo523;e0052sts3scountrywideassuredcoukcalumApollo535;e0052sts3scountrywideassuredcoukcalumApollo537;e0052sts3scountrywideassuredcoukcalumApollo514;e0052sts3scountrywideassuredcoukcalumApollo530;e0052sts3scountrywideassuredcoukcalumApollo518;e0052sts3scountrywideassuredcoukcalumApollo532;e0052sts3scountrywideassuredcoukcalumApollo527;e0052sts3scountrywideassuredcoukcalumApollo517;e0052sts3scountrywideassuredcoukcalumApollo539;e0052sts3scountrywideassuredcoukcalumApollo520;e0052sts3scountrywideassuredcoukcalumApollo516">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="117,144">
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo520"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo523"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo527"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo530"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo535"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo537"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo539"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo532"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo350" connectionRouterKind="Manual" source="//@children.20" target="//@children.18/@sourceConnections.0" targetEnd="//@children.20/@sourceConnections.0/@children.1" sourceEnd="//@children.20/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="70,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" location="228,646" size="140,176" targetConnections="//@children.18/@sourceConnections.0" id="e0052sts3scountrywideassuredcoukcalumApollo79" runTimeClassModel="e0052sts3scountrywideassuredcoukcalumApollo406;e0052sts3scountrywideassuredcoukcalumApollo404;e0052sts3scountrywideassuredcoukcalumApollo410;e0052sts3scountrywideassuredcoukcalumApollo401;e0052sts3scountrywideassuredcoukcalumApollo408;e0052sts3scountrywideassuredcoukcalumApollo412">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="117,108">
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo412"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo410"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo406"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo408"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo404"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo401"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="322,490" size="228,106" id="e0052sts3scountrywideassuredcoukcalumApollo248" runTimeClassModel="e0052sts3scountrywideassuredcoukcalumApollo249;e0052sts3scountrywideassuredcoukcalumApollo254;e0052sts3scountrywideassuredcoukcalumApollo257;e0052sts3scountrywideassuredcoukcalumApollo251">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="185,54">
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo251"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo254"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo257"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" connectionRouterKind="Manual" source="//@children.22" target="//@children.23/@sourceConnections.0" targetEnd="//@children.22/@sourceConnections.0/@children.1" sourceEnd="//@children.22/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="114,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" connectionRouterKind="Manual" source="//@children.22" target="//@children.9" targetEnd="//@children.22/@sourceConnections.1/@children.1" sourceEnd="//@children.22/@sourceConnections.1/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="228,70" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="-1,26"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="50,490" size="242,88" id="e0052sts3scountrywideassuredcoukcalumApollo275" runTimeClassModel="e0052sts3scountrywideassuredcoukcalumApollo276;e0052sts3scountrywideassuredcoukcalumApollo279">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="194,36">
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo276"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo279"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.22/@sourceConnections.0" connectionRouterKind="GeneralizationManhattan" source="//@children.23" target="//@children.24" targetEnd="//@children.23/@sourceConnections.0/@children.1" sourceEnd="//@children.23/@sourceConnections.0/@children.0">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="121,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="78,232" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" location="225,208" size="156,232" targetConnections="//@children.23/@sourceConnections.0" id="e0052sts3scountrywideassuredcoukcalumApollo34" runTimeClassModel="e0052sts3scountrywideassuredcoukcalumApollo214;e0052sts3scountrywideassuredcoukcalumApollo183;e0052sts3scountrywideassuredcoukcalumApollo210;e0052sts3scountrywideassuredcoukcalumApollo186;e0052sts3scountrywideassuredcoukcalumApollo193;e0052sts3scountrywideassuredcoukcalumApollo198;e0052sts3scountrywideassuredcoukcalumApollo202;e0052sts3scountrywideassuredcoukcalumApollo218;e0052sts3scountrywideassuredcoukcalumApollo181;e0052sts3scountrywideassuredcoukcalumApollo212;e0052sts3scountrywideassuredcoukcalumApollo185;e0052sts3scountrywideassuredcoukcalumApollo205;e0052sts3scountrywideassuredcoukcalumApollo216;e0052sts3scountrywideassuredcoukcalumApollo188;e0052sts3scountrywideassuredcoukcalumApollo208;e0052sts3scountrywideassuredcoukcalumApollo191;e0052sts3scountrywideassuredcoukcalumApollo195;e0052sts3scountrywideassuredcoukcalumApollo178;e0052sts3scountrywideassuredcoukcalumApollo189">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="127,180">
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo195"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo216"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo205"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo198"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo214"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo212"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo210"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo208"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo202"/>
+      <children xsi:type="editmodel:MethodEditModel" id="e0052sts3scountrywideassuredcoukcalumApollo218"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true"/>
+  </children>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showPublicMethods="true" showPackageMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showInterfaceStereotype="true" showClassStereotype="true" showPackageStereotype="true"/>
+</editmodel:ClassDiagramEditModel>

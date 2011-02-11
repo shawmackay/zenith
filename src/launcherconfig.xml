@@ -1,0 +1,20 @@
+<launcherconfig>
+	<general>
+		<appname>Zenith 0.2</appname>
+
+		<licenseFile>license.txt</licenseFile>
+		<readmeFile>readme.txt</readmeFile>
+		<directoryName>zenith0.2</directoryName>
+		<prerequisites>instlib/prerequisites.html</prerequisites>
+		<image>/instlib/logo</image>
+		<policy default="config/policy.all"/>
+		<config default="conf/messagingMgr.config"/>	
+		<codebase value="lib-dl/zenith_broker-dl.jar,lib-dl/zenith_router-dl.jar"/>
+		<finishreadmefile>starting.html</finishreadmefile>
+		<startfile name="Message Broker Service" command="runbroker"/>
+		<startfile name="Message Router Service" command="runrouter"/>		
+		<script-var name="FileLogLevel" comment="Level of logging to be directed files" default="FINER"/>
+		<script-var name="ConsoleLogLevel" comment="Level of logging to be directed to Console" default="INFO"/>		
+		<script-var name="GROUP" comment="Name of Jini Group to use in default config" default="public"/>
+	</general>
+</launcherconfig>
